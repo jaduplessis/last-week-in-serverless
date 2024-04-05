@@ -13,9 +13,11 @@ if __name__ == '__main__':
   # rtf_decoder(SETTINGS.rtf_dir, SETTINGS.txt_dir)
   # categories = category_extractor(SETTINGS.txt_dir)
 
-  data = fetcher_li_items()
-  with open('dump.json', 'w') as f:
-    f.write(json.dumps(data, indent=2))
+  fetcher_li_items()
+ 
+
+  print("Done!")
+
     
 
 

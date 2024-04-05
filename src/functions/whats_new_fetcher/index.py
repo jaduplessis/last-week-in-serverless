@@ -1,3 +1,4 @@
+import json
 from constants import SETTINGS
 from functions.whats_new_fetcher.soup import soupify
 
@@ -41,5 +42,20 @@ def fetcher_li_items():
 
     data["items"].append(item_data)
 
+  
+  save_data(data)
+
   return data
 
+
+
+def save_data(data):
+  """ Function to save the data to a file
+
+  Args:
+    data (dict): The data to save
+  """
+
+  with open(SETTINGS.whats_new_output, "w") as f:
+    json.dump(data, f, indent=2)
+  print("Data saved to data/whats_new.json")

@@ -26,12 +26,11 @@ class Settings(BaseSettings):
     supabase_url: str
     supabase_service_key: SecretStr
 
-    whats_new_url: str = 'https://aws.amazon.com/about-aws/whats-new/2024/?whats-new-content-all.sort-by=item.additionalFields.postDateTime&whats-new-content-all.sort-order=desc&awsf.whats-new-categories=*all'
     whats_new_rss_feed: str = 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
-    whats_new_ul_class: str = "aws-directories-container"
 
     rtf_dir: str = 'data/prompt/rtf'
     txt_dir: str = 'data/prompt/txt'
+    whats_new_output: str = 'data/context/whats_new.json'
 
 
 
