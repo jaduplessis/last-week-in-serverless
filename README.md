@@ -1,6 +1,6 @@
 # fine-tune-article
 
-> Data PreProcessing for Fine-Tuning.
+> Data PreProcessing for last-week
 
 ## Project requirements
 
@@ -44,8 +44,8 @@
 Create your virtual environment and link it to your project folder:
 
 ```bash
-pyenv virtualenv 3.11.7 fine-tune-article
-pyenv local fine-tune-article
+pyenv virtualenv 3.11.7 last-week
+pyenv local last-week
 ```
 
 Now, every time you are in your project directory your virtualenv will be activated thanks to `pyenv`!
