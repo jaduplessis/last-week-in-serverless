@@ -1,6 +1,6 @@
 import json
 from constants import SETTINGS
-from functions.whats_new_fetcher.soup import soupify
+from functions.utils.soup import soupify
 
 
 def fetcher_li_items():

@@ -26,11 +26,15 @@ class Settings(BaseSettings):
     supabase_url: str
     supabase_service_key: SecretStr
 
-    whats_new_rss_feed: str = 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
-
     rtf_dir: str = 'data/prompt/rtf'
     txt_dir: str = 'data/prompt/txt'
+
+    categories_file: str = 'data/categories.json'
+
+    whats_new_rss_feed: str = 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
     whats_new_output: str = 'data/context/whats_new.json'
+
+    data_retention_duration: int = 7
 
 
 
