@@ -1,0 +1,55 @@
+From: Reinhardt Eiselen <reinhardte@aleios.com>
+Subject: Last Week (2 months in Serverless)
+Date: 15 December 2023 at 18:41:35 GMT
+To: Andre Du Plessis <andredp@aleios.com>, Team <team@aleios.com>
+
+Hi Everyone,
+
+I know it's been a while since we've had a last week in Serverless. I think now that reinvent is over we can get it started again.
+
+So here is a list of what was announced recently in the serverless world.
+
+ Ability to call external endpoints with Step Functions("https://aws.amazon.com/blogs/aws/external-endpoints-and-testing-of-task-states-now-available-in-aws-step-functions/") 
+- You now also have the ability to rerun specific failed tasks in a standard step function
+- The ability to run individual steps instead of the entire step function for testing
+
+Lambda now scales faster("https://aws.amazon.com/blogs/aws/aws-lambda-functions-now-scale-12-times-faster-when-handling-high-volume-requests/")
+- Lambda can now scale by a 1000 every 10 seconds and not just 500 anymore
+- Lambda will now showcase future runtime support next to deprecation dates 
+- Lambda now has the ability to log in JSON format, each searching ahead and querying ahead 
+
+Cloudwatch log pricing cut in HALF("https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-log-class-for-infrequent-access-logs-at-a-reduced-price/")
+- Logs now cost $0.25 instead of $0.50!
+- Cloudwatch Log pattern Grouping
+- Anomaly detection now on logs and not just metrics anymore
+
+DynamoDB zero ETL integration with Open search("https://aws.amazon.com/blogs/aws/amazon-dynamodb-zero-etl-integration-with-amazon-opensearch-service-is-now-generally-available/")
+- Included is Redshift zero ETL integration 
+
+GraphQL (Appsync) and Aurora integration for querying("https://aws.amazon.com/blogs/mobile/build-a-graphql-api-for-your-amazon-aurora-mysql-database-using-aws-appsync-and-the-rds-data-api/")
+
+Serverless Elasticache("https://aws.amazon.com/blogs/aws/amazon-elasticache-serverless-for-redis-and-memcached-now-generally-available/")
+- No more capacity planning for elasticache 
+- Ability to choose between Memcache and Redis 
+
+Open search Vector engine("https://aws.amazon.com/blogs/aws/vector-engine-for-amazon-opensearch-serverless-is-now-generally-available/")
+- This is now generally available 
+
+Integrated Application Testing Kit("https://aws.amazon.com/blogs/compute/aws-integrated-application-test-kit/")
+- This is cool, but currently limited to Python
+
+Here are some example articles, I tried focusing on what was released during Reinvent, I am sorry if I missed anything.
+
+Definitely suggest the DynamoDB article, really cool.
+
+I nominate @Andre Du Plessis("mailto:andredp@aleios.com") for the next one.
+
+Enjoy the weekend.
+
+
+
+ ("https://www.aleios.com/")|Reinhardt Eiselen
+Architect developer
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+

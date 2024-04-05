@@ -1,0 +1,35 @@
+From: Josh Thorne <josht@aleios.com>
+Subject: Last Week in Serverless #11
+Date: 9 August 2023 at 15:34:55 BST
+To: Team <team@aleios.com>, Team - CPT <team-cpt@aleios.com>,  April Bates <aprilb@aleios.com>
+
+Hi,
+
+Tadi is off on holiday so I have decided to publish the last (and half) week in Serverless. 
+
+Esketit
+
+Scheduler adds schedule deletion after completion("https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-eventbridge-scheduler-deletion-completion/")
+I haven't used EventBridge in a while but the new scheduler looks cool so it is nice to see that AWS are continuing to add features to it including schedule deletion after completion. 
+
+Lambda Python 3.11 Support("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-lambda-python-3-11") 
+For you snake lovers, you will be happy to learn that AWS continues to support Python. I like Python. 
+
+Database Encryption SDK("https://docs.aws.amazon.com/database-encryption-sdk/latest/devguide/what-is-database-encryption-sdk.html")
+Client side encryption is made easy by the new release of the Database Encryption SDK. Someone told me encryption was important one time. 
+
+Public IPV4 Charges("https://www.lastweekinaws.com/blog/breaking-aws-begins-charging-for-public-ipv4-addresses/")
+AWS has announced that it will start charging for public IPV4 addresses.
+
+Security Heroes("https://aws.amazon.com/blogs/aws/introducing-the-first-aws-security-heroes/") 
+Security Heroes is a new thing and AWS has kickstarted the group by announcing 6 heroes. You can see their faces here: https://aws.amazon.com/blogs/aws/introducing-the-first-aws-security-heroes/("https://aws.amazon.com/blogs/aws/introducing-the-first-aws-security-heroes/")
+
+Cheerse, 
+I volunteer @April Bates("mailto:aprilb@aleios.com")  as tribute for next week 
+-- 
+ ("https://www.aleios.com/")|Joshua Thorne
+Developer
++44 7392950356("tel:+447392950356")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+

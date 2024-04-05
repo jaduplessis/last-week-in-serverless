@@ -1,0 +1,81 @@
+From: Andre Du Plessis <andredp@aleios.com>
+Subject: Re: Last Week in Serverless
+Date: 8 March 2024 at 11:27:32 GMT
+To: Mike Stringfellow <mikes@aleios.com>
+
+This was a true delight to read, thanks
+ ("https://www.aleios.com/")|Andre du Plessis
+Developer
++44 7464947236("tel:+447464947236")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+
+
+
+
+On Fri, Mar 8, 2024 at 11:00 AM Mike Stringfellow <mikes@aleios.com("mailto:mikes@aleios.com")> wrote:
+Hey, folks!
+
+Here's a brief run-down on the announcements from the last week that piqued my interest.
+
+Amazon OpenSearch Serverless expands support for time-series workloads up to 10TB("https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-opensearch-serverless-time-series-workloads-10tb/")
+Analysing time-series data is often an exercise in frustration, so being able to index and search up to 10TB using OpenSearch is a big deal if you're in to that sort of thing (which I am!)
+
+CloudWatch Metric Streams adds support for streaming of daily metrics("https://aws.amazon.com/about-aws/whats-new/2024/03/cloudwatch-metric-streams-streaming-daily-metrics/")
+We all love metrics, but often want to get them out of CloudWatch for analysis and monitoring elsewhere, be that into S3 for ingestion by Athena or Snowflake or into a third party service like NewRelic or Datadog. CloudWatch Metric Streams allow us to do this and this update has extended the metrics that we can stream to include daily metrics with a timestamp up to two days old.
+
+Dynamic parameter support for AppConfig Extensions("https://aws.amazon.com/about-aws/whats-new/2024/03/dynamic-parameter-aws-appconfig-extensions/")
+Hot on the heels of the new L2 constructs for AppConfig comes an update to AppConfig Extensions. Extensions allow you to perform an action, like backing up a configuration or masking sensitive data, whenever a configuration is deployed. You can now provide them with dynamic parameters, which will allow you to provide context to a specific deployment and use that within the Extension.
+
+Amazon ECS adds gMSA authentication for Linux containers for AWS Fargate("https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ecs-gmsa-authentication-linux-containers-aws-fargate/")
+Ever wanted to authenticate your containers running on Fargate with an Active Directory to pick up a config file in a shared network location? Now you can!
+
+AWS WAF enhances rate-based rules to support configuration time windows("https://aws.amazon.com/about-aws/whats-new/2024/03/aws-waf-rate-based-rules-configurable-time-windows/")
+I'm going to use this today! Previously when setting up rate-based rules in a WAF, the only time window was 5 minutes. This meant that, while you could multiply your required limit to get to make it work, it would only apply once that threshold of 5 minutes worth of traffic had been breached. Now you can choose a time window or 1, 2, 5 or 10 minutes!
+
+Free data transfer out to the internet when moving out of AWS("https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/")
+Not really Serverless news, but potentially helpful when countering the "vendor lock-in" argument. Amazon are waiving the data transfer out fees when migrating away from AWS. This means that, while still a sad day, at least the migration will be a slightly less expensive one.
+
+I hope you all found these items as exciting as I did! Next week's thrilling instalment will be brought to you by @Greg Torrington("mailto:gregt@aleios.com") 
+
+-- 
+ ("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.aleios.com%2F&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=Uv2tECOSgm39GXhXrjQV6MaA6aR7Ehg9v0xwY%2FwR418%3D&reserved=0")|Mike Stringfellow
+Senior Cloud Architect
+151 Wardour StreetLondon, W1F 8WE("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F151%2BWardour%2BSt%2C%2BLondon%2BW1F%2B8WF%2F%4051.5142516%2C-0.1370646%2C17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb%3A0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=9r%2FlbFqhEhqkXWSR801NjXD6xfnAwjg0801Hy%2F37pEQ%3D&reserved=0")
+
+|
+
+
+From: Mike Stringfellow <mikes@aleios.com>
+Subject: Last Week in Serverless
+Date: 8 March 2024 at 09:59:54 GMT
+To: Aleios Team <team@aleios.com>, Greg Torrington <gregt@aleios.com>
+
+Hey, folks!
+
+Here's a brief run-down on the announcements from the last week that piqued my interest.
+
+Amazon OpenSearch Serverless expands support for time-series workloads up to 10TB("https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-opensearch-serverless-time-series-workloads-10tb/")
+Analysing time-series data is often an exercise in frustration, so being able to index and search up to 10TB using OpenSearch is a big deal if you're in to that sort of thing (which I am!)
+
+CloudWatch Metric Streams adds support for streaming of daily metrics("https://aws.amazon.com/about-aws/whats-new/2024/03/cloudwatch-metric-streams-streaming-daily-metrics/")
+We all love metrics, but often want to get them out of CloudWatch for analysis and monitoring elsewhere, be that into S3 for ingestion by Athena or Snowflake or into a third party service like NewRelic or Datadog. CloudWatch Metric Streams allow us to do this and this update has extended the metrics that we can stream to include daily metrics with a timestamp up to two days old.
+
+Dynamic parameter support for AppConfig Extensions("https://aws.amazon.com/about-aws/whats-new/2024/03/dynamic-parameter-aws-appconfig-extensions/")
+Hot on the heels of the new L2 constructs for AppConfig comes an update to AppConfig Extensions. Extensions allow you to perform an action, like backing up a configuration or masking sensitive data, whenever a configuration is deployed. You can now provide them with dynamic parameters, which will allow you to provide context to a specific deployment and use that within the Extension.
+
+Amazon ECS adds gMSA authentication for Linux containers for AWS Fargate("https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ecs-gmsa-authentication-linux-containers-aws-fargate/")
+Ever wanted to authenticate your containers running on Fargate with an Active Directory to pick up a config file in a shared network location? Now you can!
+
+AWS WAF enhances rate-based rules to support configuration time windows("https://aws.amazon.com/about-aws/whats-new/2024/03/aws-waf-rate-based-rules-configurable-time-windows/")
+I'm going to use this today! Previously when setting up rate-based rules in a WAF, the only time window was 5 minutes. This meant that, while you could multiply your required limit to get to make it work, it would only apply once that threshold of 5 minutes worth of traffic had been breached. Now you can choose a time window or 1, 2, 5 or 10 minutes!
+
+Free data transfer out to the internet when moving out of AWS("https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/")
+Not really Serverless news, but potentially helpful when countering the "vendor lock-in" argument. Amazon are waiving the data transfer out fees when migrating away from AWS. This means that, while still a sad day, at least the migration will be a slightly less expensive one.
+
+I hope you all found these items as exciting as I did! Next week's thrilling instalment will be brought to you by @Greg Torrington("mailto:gregt@aleios.com") 
+
+-- 
+ ("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.aleios.com%2F&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=Uv2tECOSgm39GXhXrjQV6MaA6aR7Ehg9v0xwY%2FwR418%3D&reserved=0")|Mike Stringfellow
+Senior Cloud Architect
+151 Wardour StreetLondon, W1F 8WE("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F151%2BWardour%2BSt%2C%2BLondon%2BW1F%2B8WF%2F%4051.5142516%2C-0.1370646%2C17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb%3A0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=9r%2FlbFqhEhqkXWSR801NjXD6xfnAwjg0801Hy%2F37pEQ%3D&reserved=0")|

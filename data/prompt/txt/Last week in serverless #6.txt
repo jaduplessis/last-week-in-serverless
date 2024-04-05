@@ -1,0 +1,27 @@
+From: Mike Stringfellow <mikes@aleios.com>
+Subject: Last week in serverless #6
+Date: 3 July 2023 at 09:10:12 BST
+To: Devs <devs@aleios.com>
+Cc: Suzy Vanezis <suzyv@aleios.com>, TacTech <tactech@aleios.com>
+
+Hi, folks!
+
+Here are all of the serverless, serverless-adjacent or just plain exciting announcements that I could find from last week. Enjoy!
+Amazon DynamoDB now simplifies and lowers the cost of handling failed conditional writes (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-dynamodb-cost-failed-conditional-writes/")) - Get a copy of the item as it was at the time of a failed conditional write in the failure event rather than having to hit Dynamo again to read it
+Amazon S3 provides restore status of S3 Glacier objects using the S3 LIST API (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-s3-restore-status-s3-glacier-objects-list-api/")) - Nice QOL feature - pass a header to your API call and get the restore status of any in progress or recently restored objects.
+AWS Database Migration Service now provides more comprehensive premigration assessments (link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-database-migration-service-premigration-assessments/")) - Dive deeper into the source schemas to get better recommendations on the DMS settings to use
+Amazon CloudWatch now supports dashboard variables (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-cloudwatch-dashboard-variables/")) - CloudWatch dashboards get drill-down capabilities with variable support
+Amazon Simple Email Service now supports metric export (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-simple-email-service-metric-export/")) - SES now supports exporting delivery metrics in CSV format.
+AWS Amplify Hosting announces support for monorepo frameworks (link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-amplify-hosting-monorepo-frameworks/")) - Support for NPM workspaces, Yarn workspaces, PNPM workspaces, Turborepo and Nx now generally available in 19 regions.
+Amazon Athena now supports querying restored data in S3 Glacier (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-athena-querying-restored-data-s3-glacier/")) - Query restored data in Glacier without needing to copy it into the Standard storage class.
+AWS announces Amazon Aurora MySQL zero-ETL integration with Amazon Redshift (Public Preview) (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-aurora-mysql-zero-etl-integration-redshift-public-preview/")) - Analyse transactional data from Aurora in Redshift in near real time
+New ODBC driver now available for Amazon Athena (link("https://aws.amazon.com/about-aws/whats-new/2023/06/new-odbc-driver-amazon-athena/")) - Support for IAM authentication and reading from S3 included in the new ODBC driver for Athena
+Additionally, some services are now available in more regions:
+Amazon Athena is now available in the AWS Middle East (UAE) Region (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-athena-aws-middle-east-uae-region/"))
+Amazon Aurora Serverless v2 is now available in Asia Pacific (Melbourne) (link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-aurora-serverless-v2-melbourne/"))
+That's all for this week. @Fabien Zucchet("mailto:fabienz@aleios.com") will provide you with some more exciting news on Friday. Have a great week!
+
+-- 
+ ("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.aleios.com%2F&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=Uv2tECOSgm39GXhXrjQV6MaA6aR7Ehg9v0xwY%2FwR418%3D&reserved=0")|Mike Stringfellow
+Senior Cloud Architect
+151 Wardour StreetLondon, W1F 8WE("https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F151%2BWardour%2BSt%2C%2BLondon%2BW1F%2B8WF%2F%4051.5142516%2C-0.1370646%2C17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb%3A0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759&data=04%7C01%7Csociety%40ecs.soton.ac.uk%7C1b4e5efe062d4f6c6c5108da164b6c48%7C4a5378f929f44d3ebe89669d03ada9d8%7C0%7C0%7C637846810451172714%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=9r%2FlbFqhEhqkXWSR801NjXD6xfnAwjg0801Hy%2F37pEQ%3D&reserved=0")|

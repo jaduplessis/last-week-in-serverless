@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 ArialMT;
+\f3\fswiss\fcharset0 Arial-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red53\green134\blue255;
+\red83\green83\blue83;\red109\green109\blue109;\red27\green27\blue27;\red251\green0\blue165;\red31\green69\blue145;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\cname textColor;\cssrgb\c0\c0\c0;\cssrgb\c25490\c61176\c100000;
+\cssrgb\c40000\c40000\c40000;\cssrgb\c50196\c50196\c50196;\cssrgb\c14118\c14118\c14118;\cssrgb\c100000\c19608\c70588;\cssrgb\c15686\c35294\c63529;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 From: Sol Parker <solp@aleios.com>\
+Subject: Last Week In Serverless\
+Date: 1 March 2024 at 11:12:34 GMT\
+To: team@aleios.com, Mike Stringfellow <mikes@aleios.com>\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1 \cf2 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Hi team,\
+\
+Here\'92s a roundup of the notable announcements in the serverless space from this week. \'a0\
+\
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "https://aws.amazon.com/about-aws/whats-new/2024/02/aws-appconfig-l2-constructs-cdk/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 AWS AppConfig L2 constructs now available for AWS CDK}}\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\partightenfactor0
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 It\'92s always great to see new L2 constructs being released for CDK, providing an extra layer of abstraction and making the constructs much more intuitive to work with. This was one of the only services the Wizz BEP team\'a0wrote higher level constructs for which required us to work with L1 constructs.\'a0\
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "https://aws.amazon.com/about-aws/whats-new/2024/02/aws-lambda-stream-queue-based-event-sources/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 AWS Lambda improves responsiveness for configuring stream and queue-based event sources}}\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\partightenfactor0
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Lambda has increased responsiveness for configuring Event Source Mappings (ESMs) and Amazon EventBridge Pipes for a bunch of event sources such as Amazon DocumentDB, Amazon MQ and Apache Kafka. Previously, configuration changes involving these sources would take up to 15 minutes to take effect, this change now reduces that lead time to 90 seconds.\'a0\
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "https://aws.amazon.com/about-aws/whats-new/2024/02/aws-step-functions-open-workflow-metrics/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 AWS Step Functions adds support for Open Workflow Metrics}}\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\partightenfactor0
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 This feature enables the realtime tracking of the number of open workflow executions through CloudWatch metrics, including showing your open workflow limit. We will now be able to create CloudWatch alarms to inform us when we are approaching limits and react accordingly.\'a0\
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-kinesis-data-streams-query-data-aws-management-console/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 Amazon Kinesis Data Streams adds capability to easily query data in AWS Management Console}}\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\partightenfactor0
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Kinesis has added the ability to run SQL queries on Data Streams via the console using\'a0Amazon Managed Service for Apache Flink. We can now\'a0transform and analyse streaming data in real time with Apache Flink, an open-source framework and engine for processing data streams.\'a0\
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-opensearch-serverless-control-access-vpc-endpoints/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 Amazon OpenSearch Serverless customers can now control access to VPC endpoints}}\cf3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \
+\pard\tx940\tx1440\pardeftab720\partightenfactor0
+\ls1\ilvl1\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 With this new functionality,\'a0administrators can attach endpoint policies to control which principals can access the OpenSearch resources through their VPC endpoints.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+\pard\tx220\tx720\pardeftab720\partightenfactor0
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 Following up on Josh\'92s mention of the new Lambda Low Latency Runtime (LLRT) in last weeks edition, Yan Cui has released an article outlining his first impressions:\'a0{\field{\*\fldinst{HYPERLINK "https://theburningmonk.com/2024/02/first-impressions-of-the-fastest-javascript-runtime-for-lambda/"}}{\fldrslt \cf4 \ul \ulc4 \strokec4 https://theburningmonk.com/2024/02/first-impressions-of-the-fastest-javascript-runtime-for-lambda/}}\'a0(Huge cold start reductions!!)\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+Thanks for reading! For next week, I nominate\'a0{\field{\*\fldinst{HYPERLINK "mailto:mikes@aleios.com"}}{\fldrslt \cf4 \ul \ulc4 \strokec4 @Mike Stringfellow}}!\'a0\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth2400\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth3059\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl200 \clpadr0 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.aleios.com/"}}{\fldrslt 
+\f2\fs22 \cf4 \strokec4  }}
+\f2\fs22 \cf4 \ul \ulc4 \strokec4 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f3\b\fs36 \cf7 \ulnone \strokec7 Solomon Parker\
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b0\fs32 \cf8 \strokec8 Serverless Developer
+\fs22 \cf5 \strokec5 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "tel:+447842138000"}}{\fldrslt \cf9 \ul \ulc9 \strokec9 +44 7842138000}}\
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759"}}{\fldrslt \cf5 \ul \ulc5 151 Wardour Street\ulnone \
+\ul London, W1F 8WE}}\cell \lastrow\row
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf3 \strokec3 \
+\
+}

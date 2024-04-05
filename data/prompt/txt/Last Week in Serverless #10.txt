@@ -1,0 +1,37 @@
+From: Liza Cullis <lizac@aleios.com>
+Subject: Last Week in Serverless #10
+Date: 31 July 2023 at 09:29:27 BST
+To: Team <team@aleios.com>, Team - CPT <team-cpt@aleios.com>,  Tadiwa Mazara <tadim@aleios.com>
+
+Hello lovely humans!
+
+This is week 10 of our serverless updates, so let's jump into it! There weren't a lot of new things, so we going to get into some of the details for the cool things!
+
+Vector engine for Amazon OpenSearch Serverless in preview("https://aws.amazon.com/about-aws/whats-new/2023/07/vector-engine-amazon-opensearch-serverless-preview/") ⭐️
+
+What is a vector engine and why do we care? ML and GenAI are why!
+
+Vector engines are very widely used in the ML and Genarative AI space since a lot of the data in these fields are represented as vectors. This vector engine is basically designed to be super fast at these vector operations. And this engine can be used to generate contextually relevant responses in milliseconds!
+
+What is really amazing is that you don't have to manage the vector database infrastructure! It also integates with OpenSearch clients and open-source tools like LangChain.
+
+
+TLDR; The vector engine can make your GenAI applications super fast and scalable without the need for you to manage a whole vector database infrastructure.
+
+
+Announcing preview of JSON protocol support for Amazon SQS("https://aws.amazon.com/about-aws/whats-new/2023/07/json-protocol-support-amazon-sqs/") ⏰
+
+SQS now supports JSON protocol! This is big because 1) JSON! and 2) it reduces latency and therefore an overall increace in performance for SQS customers!
+AWS performance tests report a 23% decrease in latency for end-to-end message processing!
+
+
+AWS Lambda adds support for Python 3.11  this one is pretty self explanatory!
+
+Thanks for reading! 
+The next edition of Last Week in Serverless will be brought to you by @Tadiwa Mazara("mailto:tadim@aleios.com")!
+ ("https://www.theodo.co.uk/")|Liza Cullis
+Developer
+151 Wardour Street
+London, W1F 8WE|||
+
+

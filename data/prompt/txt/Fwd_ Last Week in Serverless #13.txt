@@ -1,0 +1,62 @@
+From: Aiden Walton <aidenw@aleios.com>
+Subject: Fwd: Last Week in Serverless #13
+Date: 5 April 2024 at 11:04:18 BST
+To: Andre Du Plessis <andredp@aleios.com>
+
+
+ ("https://www.google.com/url?q=https://www.aleios.com/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw364ji1z_1WD6RksDNUeE7k")|Aiden Walton
+Head of Engineering, Cape Town
++44 7508809145("tel:+447508809145")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/url?q=https://www.google.com/maps/place/151%2BWardour%2BSt,%2BLondon%2BW1F%2B8WF/@51.5142516,-0.1370646,17z/data%3D!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759&source=gmail-imap&ust=1712916271000000&usg=AOvVaw3ZLApBIdza-KE_rxTXCOn2")|
+
+
+
+---------- Forwarded message ---------
+From: Ben Pollard <benpo@aleios.com("mailto:benpo@aleios.com")>
+Date: Tue, Aug 29, 2023 at 12:48 PM
+Subject: Last Week in Serverless #13
+To: Team <team@aleios.com>, Team - CPT <team-cpt@aleios.com("mailto:team-cpt@aleios.com")>
+
+
+Hi all,
+
+Sorry for the late one here. Let's look at some updates over the last week.
+
+Israel (Tel Aviv) Region
+If you don't know, Israel is one of the biggest hubs for startups in the world, therefore AWS is doing their work to get that region in full functionality. There are over 25 updates this week to the region - a massive week for AWS in the Tel Aviv Region. Here's the breakdown of some my favourite releases:
+AWS Control Tower is now available in AWS Israel (Tel Aviv) Region("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/aws-control-tower-israel-tel-aviv-region/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw2l9Dtu9F3sMgdsDdnhnTwE")
+Control tower is an easy way to set up and govern your AWS accounts.
+Amazon SNS now supports sending SMS from Israel (Tel Aviv)("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-sns-sending-sms-israel-tel-aviv/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw0rgD3mm1GHhjyf3xkuaTAl")
+We have all used SNS in our time and now Israel can leverage SMS messages too!
+Amazon Route 53 Resolver DNS Firewall available in Middle East (UAE) and Israel (Tel Aviv) Regions("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-route-53-resolver-dns-firewall-uae-israel/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw1_porOnNvsWI4TjqhX2o1j")
+Let's add more security to our Route 53 Resolvers and block or flag dodgy DNS queries
+Amazon GuardDuty now available in AWS Israel (Tel Aviv) Region("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-guardduty-available-israel-tel-aviv-region/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw0vtmhRMSTLZNhki_2VsLna")
+Tel Aviv region can now monitor and detect anomalous behaviour in their AWS accounts
+Amazon Athena is now available in AWS Israel (Tel Aviv) Region("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-athena-israel-tel-aviv-region/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw1_-loeiwwH3IVd_CR5nMId")
+More serverless in Israel is always a good thing. Athena is now fully available!
+AWS CloudFormation StackSets is now available in AWS Israel (Tel Aviv) Region("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/aws-cloudformation-stacksets-israel-tel-aviv-region/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw1VWGBngs4feVmrkHJhDvTm")
+We love our stack in London and Cape Town. Israel can now enjoy more features from cloudformation with the introduction of stacksets.
+If you want to see all the updates for Tel Aviv check it out here("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/?whats-new-content-all.sort-by%3Ditem.additionalFields.postDateTime%26whats-new-content-all.sort-order%3Ddesc%26awsf.whats-new-categories%3D*all%26whats-new-content-all.q%3Dtel-aviv%26whats-new-content-all.q_operator%3DAND%26awsm.page-whats-new-content-all%3D2&source=gmail-imap&ust=1712916271000000&usg=AOvVaw2kynFLUHizA4ZvcerSJgpB")
+
+Away from Israel's massive update there have been some other notable additions and updates to the serverless world
+
+AWS Dedicated Local Zones
+Like local zones, but you can configure your dedicated local zone to meet regulatory requirements. They are built exclusively for you or your community and placed in specified locations. I see a lot of value in this to have more security and governance for your AWS accounts.
+
+Amazon QuickSight supports scheduled programmatic export to Microsoft Excel("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-quicksight-scheduled-programmatic-export-excel-format/%23:~:text%3DAmazon%2520QuickSight%2520now%2520supports%2520scheduled,to%2520Paginated%2520PDF%2520and%2520CSV.&source=gmail-imap&ust=1712916271000000&usg=AOvVaw3VH7qdcJ9w6J9EERhbpiEI")
+Not only will we be able to schedule generation of Amazon Quicksight into excel format, programatically, but we can also export them into excel format or paginated PDF and CSV files. More options for visualisation, monitoring, and insights. Could we use this with finops... maybe?
+
+Amazon Sagemaker CPU/GPU profiler("https://www.google.com/url?q=https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-sagemaker-preview-gpu-cpu-profiler-tooling-model-development/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw0OFt8m_nxedfN1krS6eyQL")
+For all you AI and ML lovers out there, we now have further observability with Amazon Sagemaker with the CPU/GPU profiler. This observability leads to optimization of our ML models. Maybe we can start playing with this a bit and see what fun things might come out of it (another product?). 
+
+
+Here's an upcoming event you might be interested in:
+AWS Hybrid Cloud & Edge Day (August 30) – Join a free-to-attend one-day virtual event to hear the latest hybrid cloud and edge computing trends, emerging technologies, and learn best practices from AWS leaders, customers, and industry analysts. To learn more, see the detail agenda and register now("https://www.google.com/url?q=https://aws.amazon.com/blogs/aws/join-aws-hybrid-cloud-edge-day-to-learn-how-to-deploy-your-applications-in-the-everywhere-cloud/&source=gmail-imap&ust=1712916271000000&usg=AOvVaw3uFqsKjw03ENQ53DDBqzc7").
+
+Going to volunteer @Aiden Walton("mailto:aidenw@aleios.com") for next(this) weeks one!
+
+Thanks,
+BenP
+
+

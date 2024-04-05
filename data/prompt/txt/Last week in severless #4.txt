@@ -1,0 +1,30 @@
+From: Ryan Schuller <ryans@aleios.com>
+Subject: Last week in severless #4
+Date: 16 June 2023 at 11:43:48 BST
+To: Matt Carey <mattc@aleios.com>, Luke Yianni <lukey@aleios.com>, Devs <devs@aleios.com>
+Cc: TacTech <tactech@aleios.com>, Suzy Vanezis <suzyv@aleios.com>
+
+Hello fellow serverless enthusiasts,
+
+It might not feel like it’s been a whole 7 days since the last one but welcome to the fourth Last Week in Serverless!
+
+There haven’t been too many big announcements this week so I added in some recent articles that I found interesting too.
+
+Lambda now supports the Ruby runtime https://aws.amazon.com/blogs/compute/ruby-3-2-runtime-now-available-in-aws-lambda/, a new one to add to the speed graph @Matt Carey("mailto:mattc@aleios.com")
+You can find potential security vulnerabilities in your lambdas more easily as Amazon Inspector has announced the general availability of Code Scans for AWS Lambda functions https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-inspector-code-scans-aws-lambda-function/("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-inspector-code-scans-aws-lambda-function/")
+Lambda isn’t the only one with security improvements. It’s still a work in progress but AWS announced a preview of the AWS Database Encryption SDK for Amazon DynamoDB https://aws.amazon.com/about-aws/whats-new/2023/06/preview-aws-database-encryption-sdk-amazon-dynamodb("https://aws.amazon.com/about-aws/whats-new/2023/06/preview-aws-database-encryption-sdk-amazon-dynamodb")
+Also on the dynamo front, Theodo France’s Thomas Aribart has been working on a new and improved DynamoDB-Toolbox and he just released the v1 beta for you to play with https://dev.to/kumo/the-dynamodb-toolbox-v1-beta-is-here-all-you-need-to-know-22op("https://dev.to/kumo/the-dynamodb-toolbox-v1-beta-is-here-all-you-need-to-know-22op")
+AWS launched some new advice on testing serverless applications with their new guide on how to test serverless applications and a series of examples in their new testing patterns collection("https://serverlessland.com/testing/patterns").
+Speaking of testing, Yan Cui has a new article out making the case that you don’t need to test every single line in your serverless application. Is it time we rethought how we measure and set goals for test coverage? https://theburningmonk.com/2023/06/no-you-dont-need-to-test-every-line-of-your-cdk-application/("https://theburningmonk.com/2023/06/no-you-dont-need-to-test-every-line-of-your-cdk-application/")
+We’ve all seen the intense competition in the observability space recently but AWS are still working in the background to improve CloudWatch and have just announced Live Tail in Amazon CloudWatch Logs, providing real-time exploration of logs https://aws.amazon.com/about-aws/whats-new/2023/06/live-tail-amazon-cloudwatch-logs/("https://aws.amazon.com/about-aws/whats-new/2023/06/live-tail-amazon-cloudwatch-logs/")
+I've been doing a little bit of preliminary research into lambda power tuning for our next quality improvement on the ACL team and this recent article by Ryan Cormack about his experience at Moonpig was an interesting read which also lead me to the discovery of AWS's own open source tool for doing this https://docs.aws.amazon.com/lambda/latest/operatorguide/profile-functions.html("https://docs.aws.amazon.com/lambda/latest/operatorguide/profile-functions.html")
+A quick reminder that the AWS Community Builders program is looking for new applicants in July so if you’ve been active in the community then do consider applying https://aws.amazon.com/developer/community/community-builders/("https://aws.amazon.com/developer/community/community-builders/")
+
+Thanks for reading. I nominate @Luke Yianni("mailto:lukey@aleios.com") for next week!
+
+ ("https://www.aleios.com/")|Ryan Schuller
+Serverless Developer
+
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+

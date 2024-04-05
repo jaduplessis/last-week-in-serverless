@@ -1,0 +1,26 @@
+From: Benjamin Pollard <benjaminp@aleios.com>
+Subject: Last Week in Serverless
+Date: 26 March 2024 at 10:56:06 GMT
+To: Andre Du Plessis <andredp@aleios.com>, Team <team@aleios.com>
+
+Hey all!
+With Summit season approaching, I am sure there are plenty more interesting announcements to come, but here is what I found that might be of interest to us this week
+AWS CodeBuild now supports custom images for AWS Lambda
+We don’t use CodeBuild much but this is pretty cool - AWS CodeBuild now supports using container images stored in Amazon ECR repository for projects configured to run on Lambda compute. Previously, you had to use one of the managed container images provided by AWS CodeBuild. AWS managed container images include support for AWS CLI, AWS SAM CLI, and various programming language runtimes.
+IAM Roles Anywhere now offers credentials that are valid for up to 12 hours
+You can now use AWS Identity and Access Management (IAM) Roles Anywhere to obtain temporary security credentials for workloads that run outside of AWS that are valid for up to 12 hours.
+Amazon DynamoDB now supports resource-based policies and AWS PrivateLink
+AWS PrivateLink simplifies network connectivity between Amazon VPC, DynamoDB, and on-premises data centers using VPC endpoints. Resource-based policies streamline access control for DynamoDB resources by specifying IAM principals' access and actions, facilitating cross-account resource sharing.
+Return your Savings Plans
+Bit of a random one but you can actually return your savings plan within 7 days of purchase now.
+Some fun AWS Connect news that Greg will love to see 
+Amazon Connect Contact Lens now automates agent performance evaluations
+Amazon Connect Contact Lens now provides businesses with the ability to automatically submit agent performance evaluations. Managers can now evaluate up to 100% of customer interactions, using insights from conversational analytics to automatically fill and submit evaluations, and get aggregations on agent performance across cohorts of agents over time.
+Amazon Connect Contact Lens now provides generative AI-powered post-contact summaries (generally available)
+Amazon Connect Contact Lens now provides generative AI-powered post-contact summaries, which summarize long customer conversations into succinct, coherent, and context rich contact summaries.
+Amazon Connect agent workspace supports third-party applications in general availability("https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-agent-workspace-third-party-apps/#:~:text=The%20Amazon%20Connect%20agent%20workspace,within%20a%20unified%20agent%20workspace.")
+The Amazon Connect agent workspace now supports third-party applications in general availability. Agents can use Amazon Connect’s native agent applications (Q in Connect, Cases, Customer Profiles, and Step-by-step Guides) alongside internal or custom-built agent applications, all within a unified agent workspace.
+
+I am keen to know some more about what's new in GenAI, so I will volunteer @Andre Du Plessis("mailto:andredp@aleios.com") for next week :)
+
+BenP

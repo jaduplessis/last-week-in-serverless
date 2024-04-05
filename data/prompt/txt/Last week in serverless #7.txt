@@ -1,0 +1,34 @@
+From: Fabien Zucchet <fabienz@aleios.com>
+Subject: Last week in serverless #7
+Date: 10 July 2023 at 09:15:32 BST
+To: devs@aleios.com
+Cc: Suzy Vanezis <suzyv@aleios.com>, tactech@aleios.com,  solp@aleios.com
+
+Hi, folks!
+
+Quite a few serverless (or less Serverless but nevertheless interesting) announcements last week!
+
+First of all, quite a few quotas and throughput updates:
+AWS Systems Manager Parameter Store increases API throughput limit (link("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-systems-manager-parameter-store-api-limit/"))
+Amazon CloudWatch now supports Cross-Account Service Quotas (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-cloudwatch-cross-account-service-quotas/"))
+Amazon OpenSearch Service now lets you provision higher IOPS and throughput for gp3 volumes (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-opensearch-service-provision-iops-throughput-gp3-volumes/"))
+But also exciting features:
+Cross-account backup is now available in more regions, including Cape Town (link("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-backup-cross-account-aws-region-coverage/"))
+It’s always useful to exploit usage analytics when developing an application, Clickstream Analytics could help (link("https://aws.amazon.com/blogs/aws/new-solution-clickstream-analytics-on-aws-for-mobile-and-web-applications/"))
+For the .NET fans, AWS announced the AWS .NET Distributed Cache Provider for DynamoDB (link("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-net-distributed-cache-provider-dynamodb/"))
+As for the Java-enthusiasts, they can try DynamoDB local version 2.0 (link("https://aws.amazon.com/about-aws/whats-new/2023/07/dynamodb-local-version-2-0/"))
+Last but not least, a selection of articles I found interesting this week:
+How to achieve API idempotency with AWS Lambda Powertools and CDK (link("https://www.ranthebuilder.cloud/post/serverless-api-idempotency-with-aws-lambda-powertools-and-cdk"))
+How to easily destroy ephemeral stacks in CDK (link("https://matt.martz.codes/destroy-their-stacks-ephemeral-cdk-stacks-as-a-service"))
+Serverless is super cool, but not always the best solution to address some problems, this article helps you take a step back and flag these situations when architecting an application (link("https://blog.serverlessadvocate.com/the-conundrum-of-serverless-lock-in-spiralling-complexity-is-it-all-worth-it-b194ce9df294"))
+And to finish with, a brain bug around what’s infrastructure in the Serverless era (link("https://theburningmonk.com/2023/06/are-we-getting-infrastructure-all-wrong-in-the-serverless-era/"))
+That’s a wrap for this week, @So("https://mailto:solp@aleios.com/")l will update you at the end of this week, enjoy your week!
+
+ ("https://www.aleios.com/")|Fabien Zucchet
+Serverless Developer
++44 7429 220486("tel:+447429220486")
++33 7 82 56 28 99("tel:+33782562899")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+
+

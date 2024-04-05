@@ -1,0 +1,24 @@
+From: Luke Yianni <lukey@aleios.com>
+Subject: Last week in severless #5
+Date: 26 June 2023 at 10:15:35 BST
+To: Mike Stringfellow <mikes@aleios.com>
+Cc: Devs <devs@aleios.com>, Suzy Vanezis <suzyv@aleios.com>, TacTech <tactech@aleios.com>
+
+Hello team!
+
+It might have felt like it's been more than 7 days since the last mail, but welcome to the fifth Last Week in Serverless!
+AWS Glue now can detect sensitive entity types from over 50 countries before writing it into their repositories: link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-glue-250-entity-types-50-countries/")
+AWS Step Functions announces the availability of Versions and Aliases, improving resiliency for deployments of serverless workflows: link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-step-functions-versions-aliases/") 
+(Less Serverless but still cool!) AWS Amplify announces the UI Builder Figma plugin, empowering design and development teams to seamlessly collaborate within a Figma file: link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-amplify-ui-builder-figma-plugin/")
+AWS Lambda now supports starting from a specific timestamp when using Amazon Managed Streaming for Apache Kafka (MSK) or Self-Managed Kafka: link("https://aws.amazon.com/about-aws/whats-new/2023/06/aws-lambda-starting-timestamp-kafka-sources/") 
+Amazon CloudWatch Logs announces new Log Insights dedup command: link("https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-clouwatch-logs-insights-dedup-command/") - quite a handy tool we could likely utilise more! 
+In addition to some serverless articles, here are some more product-focused articles I think were interesting!
+Is your team making decisions in a silo? Evidence-based design can help.("https://blog.coalesce.nyc/is-your-team-making-decisions-in-a-silo-evidence-based-design-can-help-4efb87be42ba")
+5 Reasons Why Product Quality Matters("https://www.business.com/articles/5-reasons-why-product-quality-matters/") 
+Thanks for reading. I nominate @Mike Stringfellow("mailto:mikes@aleios.com") for next week!
+ ("https://www.aleios.com/")|Luke Yianni
+Architect developer
++44 7787021903("tel:+447787021903")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+

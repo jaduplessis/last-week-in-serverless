@@ -1,0 +1,50 @@
+From: Sol Parker <solp@aleios.com>
+Subject: Last Week in Serverless #8
+Date: 18 July 2023 at 11:23:13 BST
+To: devs@aleios.com
+Cc: tactech@aleios.com, Manon Faour <manonf@aleios.com>
+
+Hello Team!
+
+Here are some key announcements made over the last week in the serverless (and serverless-adjacent) realm:
+
+Lambda:
+AWS Lambda now detects and stops recursive loops in Lambda functions (link("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-lambda-detects-recursive-loops-lambda-functions/")) <—— Very Cool
+CloudFront:
+
+Amazon CloudFront announces support for 3072-bit RSA certificates (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-cloudfront-3072-bit-rsa-certificates/"))
+DynamoDB:
+
+Announcing DynamoDB local version 2.0 (link("https://aws.amazon.com/about-aws/whats-new/2023/07/dynamodb-local-version-2-0/"))
+Database Migration Service (DMS):
+
+AWS DMS now supports Amazon Redshift Serverless as a target (link("https://aws.amazon.com/about-aws/whats-new/2023/07/aws-dms-amazon-redshift-target/"))
+S3 Inventory:
+
+Amazon S3 Inventory can include ACLs as object metadata in inventory reports (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-s3-inventory-access-control-lists-metadata-inventory/"))
+Location Service:
+Amazon Location Service now supports publishing device position updates on EventBridge (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-location-service-device-updates-eventbridge/"))
+Amazon Location Service now supports API Keys for Maps, Places, and Routes (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-location-services-api-keys-maps-places-routes/"))
+Aurora:
+Amazon Aurora supports PostgreSQL 15.3, 14.8, 13.11, 12.15, and 11.20 versions (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-aurora-postgresql-additional-versions/"))
+Amazon Aurora PostgreSQL now supports pgvector for vector storage and similarity search (link("https://aws.amazon.com/new/?whats-new-content-all.sort-by=item.additionalFields.postDateTime&whats-new-content-all.sort-order=desc&awsf.whats-new-categories=*all&awsm.page-whats-new-content-all=1"))
+DocumentDB:
+
+Amazon DocumentDB (with MongoDB compatibility) launches index improvements (link("https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-documentdb-mongodb-index-improvements/"))
+
+A few articles I’ve found useful/interesting lately:
+
+Building with GenAI #2: https://quivr.beehiiv.com/p/building-with-genai-2("https://quivr.beehiiv.com/p/building-with-genai-2")
+How to use Lambda Layers in CDK: https://bobbyhadz.com/blog/aws-cdk-lambda-layers("https://bobbyhadz.com/blog/aws-cdk-lambda-layers")
+Using a VPC with dynamoDB - The Why and HowTo: https://dynobase.dev/dynamodb-vpc/("https://dynobase.dev/dynamodb-vpc/")
+
+Apologies for the delay on this weeks round-up! Stay tuned for next weeks edition which will be brought to you by Manon!! 
+
+Thanks for reading and have a great week!! 
+ ("https://www.aleios.com/")|Solomon Parker
+Serverless Developer
++44 7842138000("tel:+447842138000")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+
+

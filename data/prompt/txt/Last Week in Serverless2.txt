@@ -1,0 +1,25 @@
+From: Greg Torrington <gregt@aleios.com>
+Subject: Last Week in Serverless
+Date: 15 March 2024 at 08:47:31 GMT
+To: team@aleios.com, Ben Pollard <benpo@aleios.com>
+
+Hey, folks!
+
+Here's a brief run-down on the announcements from the last week that piqued my interest.
+
+Announcing Terraform support for Amazon OpenSearch Ingestion deployments("https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-opensearch-ingestion-deployments-terraform/")
+Starting on 02/28/2024, you can automate and secure the deployment of Amazon OpenSearch Ingestion pipelines across 15 regions using Terraform, enhancing efficiency and reducing errors.
+
+Experience up to 40% faster stack creation with CloudFormation("https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cloudformation-40-percent-faster-stack-creation/")
+(Stolen from Josh) AWS has increased stack creation using CloudFormation by 40% and introduced a new stack creation event, CONFIGURATION_COMPLETE.
+
+Building For Interactivity: When Async Is Not Enough("https://www.readysetcloud.io/blog/allen.helton/async-is-not-enough/")
+Allen Helton recently released a new article that discusses the importance of real-time notifications in modern software development, advocating for the use of asynchronous communication to improve user experiences by eliminating wait times.
+
+Anthropic’s Claude 3 Sonnet foundation model is now available in Amazon Bedrock("https://aws.amazon.com/blogs/aws/anthropics-claude-3-sonnet-foundation-model-is-now-available-in-amazon-bedrock/")
+The article discusses the strategic collaboration between AWS and Anthropic to accelerate the development and accessibility of Anthropic's Claude foundation models on Amazon Bedrock
+
+Vector engine for Amazon OpenSearch Serverless is now available("https://aws.amazon.com/blogs/aws/vector-engine-for-amazon-opensearch-serverless-is-now-generally-available/")
+There is general availability of the vector engine for Amazon OpenSearch Serverless("https://aws.amazon.com/opensearch-service/serverless-vector-engine/") with new features!
+
+I hope you all found these items as exciting as I did! Next week's thrilling instalment will be brought to you by @Ben Pollard("mailto:benpo@aleios.com") 

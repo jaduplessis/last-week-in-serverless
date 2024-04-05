@@ -1,0 +1,30 @@
+From: Sol Parker <solp@aleios.com>
+Subject: Last Week In Serverless
+Date: 1 March 2024 at 11:12:34 GMT
+To: team@aleios.com, Mike Stringfellow <mikes@aleios.com>
+
+Hi team,
+
+Here’s a roundup of the notable announcements in the serverless space from this week.  
+
+AWS AppConfig L2 constructs now available for AWS CDK("https://aws.amazon.com/about-aws/whats-new/2024/02/aws-appconfig-l2-constructs-cdk/")
+It’s always great to see new L2 constructs being released for CDK, providing an extra layer of abstraction and making the constructs much more intuitive to work with. This was one of the only services the Wizz BEP team wrote higher level constructs for which required us to work with L1 constructs. 
+AWS Lambda improves responsiveness for configuring stream and queue-based event sources("https://aws.amazon.com/about-aws/whats-new/2024/02/aws-lambda-stream-queue-based-event-sources/")
+Lambda has increased responsiveness for configuring Event Source Mappings (ESMs) and Amazon EventBridge Pipes for a bunch of event sources such as Amazon DocumentDB, Amazon MQ and Apache Kafka. Previously, configuration changes involving these sources would take up to 15 minutes to take effect, this change now reduces that lead time to 90 seconds. 
+AWS Step Functions adds support for Open Workflow Metrics("https://aws.amazon.com/about-aws/whats-new/2024/02/aws-step-functions-open-workflow-metrics/")
+This feature enables the realtime tracking of the number of open workflow executions through CloudWatch metrics, including showing your open workflow limit. We will now be able to create CloudWatch alarms to inform us when we are approaching limits and react accordingly. 
+Amazon Kinesis Data Streams adds capability to easily query data in AWS Management Console("https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-kinesis-data-streams-query-data-aws-management-console/")
+Kinesis has added the ability to run SQL queries on Data Streams via the console using Amazon Managed Service for Apache Flink. We can now transform and analyse streaming data in real time with Apache Flink, an open-source framework and engine for processing data streams. 
+Amazon OpenSearch Serverless customers can now control access to VPC endpoints("https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-opensearch-serverless-control-access-vpc-endpoints/")
+With this new functionality, administrators can attach endpoint policies to control which principals can access the OpenSearch resources through their VPC endpoints.
+
+Following up on Josh’s mention of the new Lambda Low Latency Runtime (LLRT) in last weeks edition, Yan Cui has released an article outlining his first impressions: https://theburningmonk.com/2024/02/first-impressions-of-the-fastest-javascript-runtime-for-lambda/("https://theburningmonk.com/2024/02/first-impressions-of-the-fastest-javascript-runtime-for-lambda/") (Huge cold start reductions!!)
+
+Thanks for reading! For next week, I nominate @Mike Stringfellow("mailto:mikes@aleios.com")! 
+ ("https://www.aleios.com/")|Solomon Parker
+Serverless Developer
++44 7842138000("tel:+447842138000")
+151 Wardour Street
+London, W1F 8WE("https://www.google.com/maps/place/151+Wardour+St,+London+W1F+8WF/@51.5142516,-0.1370646,17z/data=!3m1!4b1!4m5!3m4!1s0x487604d359d41fbb:0x10f2c0ddb67fc120!8m2!3d51.5142516!4d-0.1348759")|
+
+
