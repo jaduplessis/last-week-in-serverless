@@ -1,0 +1,504 @@
+{
+  "items": [
+    {
+      "title": "Cross-account observability enabled for CloudWatch Internet Monitor",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/cross-account-observability-cloudwatch-internet-monitor/",
+      "pubDate": "Thu, 04 Apr 2024 21:56:48 +0000"
+    },
+    {
+      "title": "ElastiCache Serverless is now available in the AWS Canada West (Calgary) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/elasticache-serverless-aws-canada-west-calgary-region/",
+      "pubDate": "Thu, 04 Apr 2024 17:27:32 +0000"
+    },
+    {
+      "title": "AWS Lambda adds support for Ruby 3.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-lambda-ruby-3-3/",
+      "pubDate": "Thu, 04 Apr 2024 19:53:34 +0000"
+    },
+    {
+      "title": "Amazon SageMaker Studio Code Editor now supports custom images",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-sagemaker-studio-code-editor-custom-images/",
+      "pubDate": "Thu, 04 Apr 2024 17:29:37 +0000"
+    },
+    {
+      "title": "Amazon RDS now supports M6gd database instances in six additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-rds-m6gd-database-instances-additional-aws-regions/",
+      "pubDate": "Thu, 04 Apr 2024 17:01:30 +0000"
+    },
+    {
+      "title": "Amazon SageMaker notebooks now support P5, C6i, C7i, M6i, M7i, R6i, and R7i instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-sagemaker-notebooks-p5-c6i-c7i-m6i-m7i-r6i-r7i-instance-types/",
+      "pubDate": "Thu, 04 Apr 2024 21:29:07 +0000"
+    },
+    {
+      "title": "AWS IAM Identity Center is now available in the  Europe (Spain) AWS Region and Asia Pacific (Hyderabad) AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-iam-identity-center-europe-spain-asia-pacific-hyderabad-aws-region/",
+      "pubDate": "Thu, 04 Apr 2024 21:25:39 +0000"
+    },
+    {
+      "title": "Announcing general availability of Amazon EC2 G6 instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/general-availability-amazon-ec2-g6-instances/",
+      "pubDate": "Thu, 04 Apr 2024 21:50:56 +0000"
+    },
+    {
+      "title": "Amazon OpenSearch Ingestion now supports enrichment of streaming data with geographical location",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-opensearch-ingestion-streaming-data-geographical-location/",
+      "pubDate": "Thu, 04 Apr 2024 19:24:45 +0000"
+    },
+    {
+      "title": "AWS B2B Data Interchange is now HIPAA eligible and supports X12 version 5010 HIPAA transactions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-b2b-data-interchange-hipaa-eligible-x12-version-5010-hipaa-transactions/",
+      "pubDate": "Thu, 04 Apr 2024 19:03:14 +0000"
+    },
+    {
+      "title": "Amazon OpenSearch Service doubles storage for OR1 and expands to four more regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-opensearch-service-doubles-storage-or1-four-regions/",
+      "pubDate": "Thu, 04 Apr 2024 17:21:36 +0000"
+    },
+    {
+      "title": "AWS Application Migration Service now supports migration of UEFI servers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-application-migration-service-migration-uefi-servers/",
+      "pubDate": "Thu, 04 Apr 2024 19:04:47 +0000"
+    },
+    {
+      "title": "AWS Transfer Family offers predefined security policies for SFTP connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-transfer-family-predefined-security-policies-sftp-connectors/",
+      "pubDate": "Wed, 03 Apr 2024 21:58:24 +0000"
+    },
+    {
+      "title": "Amazon DataZone announces integration with AWS Lake Formation hybrid mode",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-datazone-integration-aws-lake-formation-hybrid-mode/",
+      "pubDate": "Wed, 03 Apr 2024 20:09:40 +0000"
+    },
+    {
+      "title": "Amazon CloudWatch now supports cross-account anomaly detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-cloudwatch-cross-account-anomaly-detection/",
+      "pubDate": "Wed, 03 Apr 2024 17:35:18 +0000"
+    },
+    {
+      "title": "AWS Clean Rooms ML is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-clean-rooms-ml-generally-available/",
+      "pubDate": "Wed, 03 Apr 2024 19:23:20 +0000"
+    },
+    {
+      "title": "Mistral Large foundation model now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/mistral-large-foundation-model-amazon-bedrock/",
+      "pubDate": "Wed, 03 Apr 2024 18:37:18 +0000"
+    },
+    {
+      "title": "Amazon Bedrock is now available in the AWS Europe (Paris) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-bedrock-europe-paris-region/",
+      "pubDate": "Wed, 03 Apr 2024 13:04:02 +0000"
+    },
+    {
+      "title": "Amazon DataZone launches integration with AWS Glue Data Quality",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-datazone-integration-glue-data-quality/",
+      "pubDate": "Wed, 03 Apr 2024 20:48:45 +0000"
+    },
+    {
+      "title": "Amazon DocumentDB is now available in the Middle East (UAE) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-documentdb-middle-east-uae-region/",
+      "pubDate": "Wed, 03 Apr 2024 21:47:03 +0000"
+    },
+    {
+      "title": "AWS Marketplace now supports demo and private offer requests for products",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-marketplace-demo-private-offer-requests-products/",
+      "pubDate": "Tue, 02 Apr 2024 17:03:59 +0000"
+    },
+    {
+      "title": "Amazon Timestream for LiveAnalytics achieves FedRAMP High Authorization in AWS GovCloud West Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-timestream-liveanalytics-fedramp-high-authorization-aws-govcloud-west-region/",
+      "pubDate": "Tue, 02 Apr 2024 20:56:01 +0000"
+    },
+    {
+      "title": "ElastiCache Serverless is now available in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/elasticache-serverless-aws-govcloud-us-regions/",
+      "pubDate": "Tue, 02 Apr 2024 17:05:08 +0000"
+    },
+    {
+      "title": "AWS AppSync increases existing service quota and adds subscription service quotas",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-appsync-increases-service-quota-adds-subscription/",
+      "pubDate": "Tue, 02 Apr 2024 17:07:33 +0000"
+    },
+    {
+      "title": "Announcing AWS Deadline Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/announcing-aws-deadline-cloud/",
+      "pubDate": "Tue, 02 Apr 2024 17:50:13 +0000"
+    },
+    {
+      "title": "VPC Traffic Mirroring is now available in seven additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/vpc-traffic-mirroring-seven-additional-regions/",
+      "pubDate": "Tue, 02 Apr 2024 19:55:13 +0000"
+    },
+    {
+      "title": "AWS Console Mobile Application adds support for CloudWatch custom dashboards",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-cloudwatch-custom-dashboards-console-mobile-app/",
+      "pubDate": "Tue, 02 Apr 2024 17:10:10 +0000"
+    },
+    {
+      "title": "Run Chef 11-18 recipes on Windows using AWS Systems Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/chef-11-18-recipes-windows-aws-systems-manager/",
+      "pubDate": "Tue, 02 Apr 2024 17:48:25 +0000"
+    },
+    {
+      "title": "Amazon Aurora zero-ETL integration with Amazon Redshift now in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-aurora-zero-etl-integration-redshift-regions/",
+      "pubDate": "Tue, 02 Apr 2024 17:04:41 +0000"
+    },
+    {
+      "title": "Knowledge Bases for Amazon Bedrock now supports private network policies for OpenSearch Serverless",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/knowledge-bases-amazon-bedrock-private-network-policies-opensearch-serverless/",
+      "pubDate": "Mon, 01 Apr 2024 20:53:55 +0000"
+    },
+    {
+      "title": "Amazon AppStream 2.0 can now launch IdP-initiated sessions using the Windows client",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-appstream-2-0-idp-initiated-sessions-windows-client/",
+      "pubDate": "Mon, 01 Apr 2024 20:22:35 +0000"
+    },
+    {
+      "title": "Partner Analytics is now Analytics and Insights",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/partner-analytics-now-analytics-insights/",
+      "pubDate": "Mon, 01 Apr 2024 17:05:28 +0000"
+    },
+    {
+      "title": "AWS Resilience Hub expands support for FSx for Windows and Trust Advisor",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-resilience-hub-fsx-windows-trust-advisor/",
+      "pubDate": "Mon, 01 Apr 2024 17:04:05 +0000"
+    },
+    {
+      "title": "Amazon EMR on EC2 now gracefully replaces unhealthy core nodes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-emr-ec2-gracefully-replaces-unhealthy-core-nodes/",
+      "pubDate": "Mon, 01 Apr 2024 21:10:13 +0000"
+    },
+    {
+      "title": "Amazon Transcribe launches Spanish language support for PII identification and redaction",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-transcribe-spanish-language-pii-identification-redaction/",
+      "pubDate": "Mon, 01 Apr 2024 18:55:19 +0000"
+    },
+    {
+      "title": "Private Access to the AWS Management Console is now available in all commercial AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/private-access-aws-management-console-commercial-regions/",
+      "pubDate": "Mon, 01 Apr 2024 20:24:34 +0000"
+    },
+    {
+      "title": "Amazon RDS for SQL Server supports Single-AZ Read Replica",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-rds-sql-server-single-az-read-replica/",
+      "pubDate": "Mon, 01 Apr 2024 19:04:56 +0000"
+    },
+    {
+      "title": "Amazon EventBridge announces an improved Learn page and other console enhancements",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-eventbridge-console-enhancements/",
+      "pubDate": "Mon, 01 Apr 2024 17:16:05 +0000"
+    },
+    {
+      "title": "Announcing per-second billing for EC2 Red Hat Enterprise Linux (RHEL)-based instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/per-second-billing-ec2-rhel-based-instances/",
+      "pubDate": "Mon, 01 Apr 2024 18:22:18 +0000"
+    },
+    {
+      "title": "Amazon EKS extended support for Kubernetes versions now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-eks-support-kubernetes-versions/",
+      "pubDate": "Mon, 01 Apr 2024 21:47:21 +0000"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus collector now supports CloudFormation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-managed-service-prometheus-collector-cloudformation/",
+      "pubDate": "Fri, 29 Mar 2024 17:59:25 +0000"
+    },
+    {
+      "title": "AWS Wickr is now available in additional AWS Asia Pacific Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-wickr-additional-asia-pacific-regions/",
+      "pubDate": "Fri, 29 Mar 2024 16:59:43 +0000"
+    },
+    {
+      "title": "AWS adds Managed Policies to VSS to help ensure valid application consistent backups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-managed-policies-vss-ensure-valid-application-consistent-backups/",
+      "pubDate": "Fri, 29 Mar 2024 20:46:17 +0000"
+    },
+    {
+      "title": "Knowledge Bases for Amazon Bedrock now lets you customize prompts and number of retrieval results",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/knowledge-bases-amazon-bedrock-customize-prompts-number-retrieval-results/",
+      "pubDate": "Fri, 29 Mar 2024 20:01:49 +0000"
+    },
+    {
+      "title": "Amazon Connect forecasting, capacity planning, and scheduling are now generally available in four additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-forecasting-capacity-planning-scheduling-additional-aws-regions/",
+      "pubDate": "Fri, 29 Mar 2024 21:59:48 +0000"
+    },
+    {
+      "title": "Tax dashboard now generally available for AWS Marketplace Sellers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/tax-dashboard-generally-available-aws-marketplace-sellers/",
+      "pubDate": "Fri, 29 Mar 2024 17:00:33 +0000"
+    },
+    {
+      "title": "AWS Amplify Hosting is generally available in the Asia Pacific (Osaka) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-amplify-hosting-asia-pacific-osaka-region/",
+      "pubDate": "Fri, 29 Mar 2024 19:52:39 +0000"
+    },
+    {
+      "title": "Amazon GuardDuty EC2 Runtime Monitoring is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-guardduty-ec2-runtime-monitoring-available/",
+      "pubDate": "Fri, 29 Mar 2024 20:29:59 +0000"
+    },
+    {
+      "title": "AWS B2B Data Interchange supports additional finance, transportation, supply chain X12 transactions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-b2b-data-interchange-finance-transportation-supply-x12/",
+      "pubDate": "Fri, 29 Mar 2024 17:22:12 +0000"
+    },
+    {
+      "title": "Introducing AWS CodeConnections, formerly known as AWS CodeStar Connections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-codeconnections-formerly-codestar-connections/",
+      "pubDate": "Fri, 29 Mar 2024 21:54:25 +0000"
+    },
+    {
+      "title": "AWS IoT Core for LoRaWAN adds metrics monitoring capability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-iot-core-lorawan-metrics-monitoring-capability/",
+      "pubDate": "Fri, 29 Mar 2024 20:32:08 +0000"
+    },
+    {
+      "title": "Amazon SageMaker Canvas announces new pricing for training tabular models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-sagemaker-canvas-pricing-tabular-models/",
+      "pubDate": "Fri, 29 Mar 2024 19:49:47 +0000"
+    },
+    {
+      "title": "New ECS-Optimized AMIs support AL2 Kernel 5.10 for GPU and Inf Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/ecs-optimized-amis-al2-kernel-5-10-gpu-inf-instances/",
+      "pubDate": "Thu, 28 Mar 2024 16:59:33 +0000"
+    },
+    {
+      "title": "Amazon RDS adds Oracle Database SE2 License-Included option in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-rds-oracle-database-se2-license-included-additional-regions/",
+      "pubDate": "Thu, 28 Mar 2024 21:12:08 +0000"
+    },
+    {
+      "title": "AWS CloudFormation Console now supports visualization of stacks in Application Composer",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cloudformation-console-visualization-stacks-application-composer/",
+      "pubDate": "Thu, 28 Mar 2024 19:16:33 +0000"
+    },
+    {
+      "title": "Amazon SNS now supports FIFO topics in Canada West (Calgary) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-sns-fifo-topics-canada-west-calgary-region/",
+      "pubDate": "Thu, 28 Mar 2024 19:05:40 +0000"
+    },
+    {
+      "title": "AWS now supports Slack Connect for AWS sales to collaborate with customer and partners",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/slack-connect-aws-sales-collaborate-customers-partners/",
+      "pubDate": "Thu, 28 Mar 2024 17:00:55 +0000"
+    },
+    {
+      "title": "Amazon EC2 M7a instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ec2-m7a-instances-additional-regions/",
+      "pubDate": "Thu, 28 Mar 2024 20:26:55 +0000"
+    },
+    {
+      "title": "AWS announces a new Local Zone in Miami",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-new-local-zone-miami/",
+      "pubDate": "Thu, 28 Mar 2024 19:26:28 +0000"
+    },
+    {
+      "title": "AWS Billing and Cost Management Data Exports now supports AWS CloudFormation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-billing-cost-management-data-exports-cloudformation/",
+      "pubDate": "Thu, 28 Mar 2024 20:24:53 +0000"
+    },
+    {
+      "title": "AWS Compute Optimizer introduces memory customizability for EC2 rightsizing recommendations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-compute-optimizer-ec2-rightsizing-recommendations/",
+      "pubDate": "Thu, 28 Mar 2024 21:26:07 +0000"
+    },
+    {
+      "title": "Amazon EventBridge announces Confluent Cloud integration in the AWS console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-eventbridge-confluent-cloud-integration-console/",
+      "pubDate": "Thu, 28 Mar 2024 16:58:40 +0000"
+    },
+    {
+      "title": "Knowledge Bases for Amazon Bedrock now supports metadata filtering ",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/knowledge-bases-amazon-bedrock-metadata-filtering/",
+      "pubDate": "Thu, 28 Mar 2024 18:16:46 +0000"
+    },
+    {
+      "title": "Amazon DynamoDB Import from S3 now supports up to 50,000 Amazon S3 objects in a single bulk import",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-dynamodb-import-s3-50000-objects-single-bulk-import/",
+      "pubDate": "Wed, 27 Mar 2024 21:47:16 +0000"
+    },
+    {
+      "title": "Announcing increased default quotas for CloudWatch Logs APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/increased-default-quotas-cloudwatch-logs-apis/",
+      "pubDate": "Wed, 27 Mar 2024 17:17:01 +0000"
+    },
+    {
+      "title": "Amazon ECR announces an improved version of basic scanning (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ecr-improved-basic-scanning-preview/",
+      "pubDate": "Wed, 27 Mar 2024 21:45:35 +0000"
+    },
+    {
+      "title": "AWS Cloud WAN and AWS Network Manager are now available in AWS Asia Pacific (Jakarta) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cloud-wan-network-manager-asia-pacific-jakarta-region/",
+      "pubDate": "Wed, 27 Mar 2024 17:00:51 +0000"
+    },
+    {
+      "title": "ElastiCache Serverless adds more controls for scaling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/elasticache-serverless-controls-scaling/",
+      "pubDate": "Wed, 27 Mar 2024 21:01:15 +0000"
+    },
+    {
+      "title": "AWS Cost Allocation Tags now support retroactive application",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-cost-allocation-tags-retroactive-application/",
+      "pubDate": "Wed, 27 Mar 2024 19:58:48 +0000"
+    },
+    {
+      "title": "Migrate existing domains to new SageMaker Studio via SageMaker Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/migrate-existing-domains-sagemaker-studio-console/",
+      "pubDate": "Wed, 27 Mar 2024 17:04:18 +0000"
+    },
+    {
+      "title": "AI recommendations for descriptions in Amazon DataZone now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/ai-recommendations-descriptions-amazon-datazone/",
+      "pubDate": "Wed, 27 Mar 2024 18:11:08 +0000"
+    },
+    {
+      "title": "AWS Global Accelerator adds support for five new Amazon CloudWatch metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-global-accelerator-five-cloudwatch-metrics/",
+      "pubDate": "Wed, 27 Mar 2024 19:22:40 +0000"
+    },
+    {
+      "title": "AWS Control Tower now supports APIs in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-control-tower-apis-govcloud-us-regions/",
+      "pubDate": "Wed, 27 Mar 2024 16:50:12 +0000"
+    },
+    {
+      "title": "CodeCatalyst workflows runtime image selection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/codecatalyst-workflows-runtime-image-selection/",
+      "pubDate": "Wed, 27 Mar 2024 16:56:41 +0000"
+    },
+    {
+      "title": "ElastiCache encryption at rest is now available in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/elasticache-encryption-at-rest-govcloud-us-regions/",
+      "pubDate": "Wed, 27 Mar 2024 17:34:15 +0000"
+    },
+    {
+      "title": "AWS Systems Manager now supports RHEL 8.9 and 9.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-systems-manager-rhel-supports-8-9/",
+      "pubDate": "Wed, 27 Mar 2024 17:03:05 +0000"
+    },
+    {
+      "title": "Amazon Time Sync Service now supports microsecond-accurate time in US East (N. Virginia) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-time-sync-service-microsecond-accurate-time-us-east-n-virginia-region/",
+      "pubDate": "Tue, 26 Mar 2024 17:11:53 +0000"
+    },
+    {
+      "title": "AWS Lambda Functions powered by AWS Graviton2 now available in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-lambda-functions-graviton2-govcloud-us-regions/",
+      "pubDate": "Tue, 26 Mar 2024 22:06:29 +0000"
+    },
+    {
+      "title": "AWS Global Accelerator extends bring your own IP address (BYOIP) to enable sharing IP space across accounts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-global-accelerator-byoip-sharing-ip-space-across-accounts/",
+      "pubDate": "Tue, 26 Mar 2024 16:59:15 +0000"
+    },
+    {
+      "title": "Well-Architected adds 4 new lenses to the Lens Catalog",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/well-architected-new-lenses-lens-catalog/",
+      "pubDate": "Tue, 26 Mar 2024 17:02:30 +0000"
+    },
+    {
+      "title": "AWS Elemental MediaConvert now available in the Middle East (UAE) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-elemental-mediaconvert-middle-east-uae-region/",
+      "pubDate": "Tue, 26 Mar 2024 21:32:16 +0000"
+    },
+    {
+      "title": "Amazon Connect supports guided chat experiences using step-by-step guides",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-guided-chat-experiences-step-by-step-guides/",
+      "pubDate": "Tue, 26 Mar 2024 21:43:35 +0000"
+    },
+    {
+      "title": "Amazon RDS Custom for Oracle now supports X2iezn instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-rds-custom-oracle-x2iezn-instances/",
+      "pubDate": "Tue, 26 Mar 2024 21:41:29 +0000"
+    },
+    {
+      "title": "AWS CodeBuild now supports GitLab and GitLab Self Managed",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-codebuild-gitlab-gitlab-self-managed/",
+      "pubDate": "Tue, 26 Mar 2024 17:01:16 +0000"
+    },
+    {
+      "title": "AWS Elemental MediaLive now available in Middle East (UAE) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-elemental-medialive-middle-east-uae-region/",
+      "pubDate": "Tue, 26 Mar 2024 22:04:28 +0000"
+    },
+    {
+      "title": "Amazon EC2 C7gn metal instance is now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ec2-c7gn-metal-instance-available/",
+      "pubDate": "Tue, 26 Mar 2024 21:36:48 +0000"
+    },
+    {
+      "title": "AWS Elemental MediaLive now available in Asia Pacific (Hyderabad)  region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-elemental-medialive-asia-pacific-hyderabad-region/",
+      "pubDate": "Tue, 26 Mar 2024 22:02:39 +0000"
+    },
+    {
+      "title": "AWS announces Reserved Instances for Amazon Aurora PostgreSQL Optimized Reads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/reserved-instances-amazon-aurora-postgresql-optimized-reads/",
+      "pubDate": "Tue, 26 Mar 2024 20:03:38 +0000"
+    },
+    {
+      "title": "Knowledge Bases for Amazon Bedrock now supports Claude 3 Sonnet",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/knowledge-bases-amazon-bedrock-claude-3-sonnet/",
+      "pubDate": "Tue, 26 Mar 2024 17:18:46 +0000"
+    },
+    {
+      "title": "AWS AppFabric now supports Dynatrace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-appfabric-supports-dynatrace/",
+      "pubDate": "Tue, 26 Mar 2024 20:07:02 +0000"
+    },
+    {
+      "title": "Set IMDSv2 as default for all new instance launches in your account",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/set-imdsv2-default-new-instance-launches/",
+      "pubDate": "Mon, 25 Mar 2024 18:52:49 +0000"
+    },
+    {
+      "title": "AWS B2B Data Interchange now publishes events to Amazon EventBridge",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-b2b-data-interchange-publishes-events-amazon-eventbridge/",
+      "pubDate": "Mon, 25 Mar 2024 18:54:23 +0000"
+    },
+    {
+      "title": "Amazon Connect Contact Lens now automates agent performance evaluations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-contact-lens-automates-agent-performance-evaluations/",
+      "pubDate": "Mon, 25 Mar 2024 17:01:44 +0000"
+    },
+    {
+      "title": "Amazon Lightsail expands blueprint selection with support for AlmaLinux 9",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-lightsail-blueprint-selection-support-almalinux-9/",
+      "pubDate": "Mon, 25 Mar 2024 18:19:16 +0000"
+    },
+    {
+      "title": "Amazon Connect Contact Lens now provides generative AI-powered post-contact summaries (generally available)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-contact-lens-generative-ai-powered-post-contact-summaries/",
+      "pubDate": "Mon, 25 Mar 2024 17:45:39 +0000"
+    },
+    {
+      "title": "AWS Batch now offers multi-container jobs via AWS Management Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/aws-batch-multi-container-jobs-aws-management-console/",
+      "pubDate": "Mon, 25 Mar 2024 19:07:34 +0000"
+    },
+    {
+      "title": "Amazon Chime SDK provides API endpoints for media pipelines in Seoul, Mumbai, Sydney, Tokyo, Canada, and London",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-chime-sdk-api-endpoints-media-pipelines-seoul-mumbai-sydney-tokyo-canada-london/",
+      "pubDate": "Mon, 25 Mar 2024 20:39:55 +0000"
+    },
+    {
+      "title": " IAM Roles Anywhere now offers credentials that are valid for up to 12 hours",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/iam-roles-anywhere-credentials-valid-12-hours/",
+      "pubDate": "Mon, 25 Mar 2024 17:02:35 +0000"
+    },
+    {
+      "title": "Amazon Connect agent workspace supports third-party applications in general availability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-connect-agent-workspace-third-party-apps/",
+      "pubDate": "Mon, 25 Mar 2024 15:51:26 +0000"
+    },
+    {
+      "title": "Amazon Linux announces new quarterly update with AL2023.4 and availability of EKS optimized AMI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-linux-quarterly-update-eks-optimized-ami/",
+      "pubDate": "Mon, 25 Mar 2024 19:07:37 +0000"
+    }
+  ]
+}
