@@ -26,13 +26,18 @@ class Settings(BaseSettings):
     supabase_url: str
     supabase_service_key: SecretStr
 
-    rtf_dir: str = 'data/prompt/rtf'
-    txt_dir: str = 'data/prompt/txt'
+    rtf_dir: str = '../../data/prompt/rtf'
+    txt_dir: str = '../../data/prompt/txt'
 
-    categories_file: str = 'data/categories.json'
+    categories_file: str = '../../data/example/categories.json'
+    rss_feed_file: str = '../../data/example/rss_feed.json'
+    links_file: str = '../../data/example/links.json'
 
     whats_new_rss_feed: str = 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
-    whats_new_output: str = 'data/context/whats_new.json'
+    whats_new_output: str = '../../data/context/whats_new.json'
+    dot_products_file: str = '../../data/context/dot_products.json'
+
+    ranks_output_dir: str = '../../data/context/ranks/'
 
     data_retention_duration: int = 7
 

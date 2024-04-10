@@ -1,11 +1,10 @@
 
 import json
 from functions.utils.soup import soupify
-from functions.data_filter.llm import LLM
 from constants import SETTINGS
 
 
-def retrieve_categories(data):
+def retrieve_content(data):
     """ Function to loop through the data sources and determine the category of the content
 
     For each item in the list, the function will web scrape the link and provide the content to a content parser function.
@@ -17,14 +16,12 @@ def retrieve_categories(data):
     #       title: "Title",
     #       link: "Link",
     #       pubDate: "Date",
-    #       category: "Category",
     #       content: "Content"
     #     },
     #     ...
     #   ]
     # }
     """
-    llm = LLM()
 
     for item in data["items"]:
         print(f"Processing {item['title']}. Item {data['items'].index(item) + 1} of {len(data['items'])}")
@@ -38,22 +35,9 @@ def retrieve_categories(data):
             string_content += tag.text
             string_content += "\n"
   
-        category = llm.parse_text(string_content)
-
-        item["category"] = category
         item["content"] = string_content
 
-        save_data(data)
 
     return data
 
 
-def save_data(data):
-    """ Function to save the data to a file
-
-    Args:
-        data (dict): The data to save
-    """
-
-    with open(SETTINGS.whats_new_output, "w") as f:
-        json.dump(data, f, indent=2)

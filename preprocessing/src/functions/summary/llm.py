@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 
 from constants import SETTINGS
-from functions.data_filter.system import system_message
+from functions.summary.system import system_message
 
 
 class LLM():
@@ -24,7 +24,7 @@ class LLM():
     '''
     model = ChatAnthropic(
       anthropic_api_key=SETTINGS.anthropic_api_key.get_secret_value(),
-      model="claude-3-sonnet-20240229",
+      model="claude-3-haiku-20240307",
       temperature=0.2,
       max_tokens=1000,
     )
@@ -52,11 +52,9 @@ class LLM():
 
     response = self.model.invoke(messages).content
 
-    print(response)
-
     
     try:
-      category = json.loads(response)['category']
+      summary = json.loads(response)['summary']
     except:
       print('Invalid response from model, trying again')
       if max_attempts > 0:
@@ -65,5 +63,5 @@ class LLM():
         print('Max attempts reached, returning None')
         return None
 
-    return category
+    return summary
    
