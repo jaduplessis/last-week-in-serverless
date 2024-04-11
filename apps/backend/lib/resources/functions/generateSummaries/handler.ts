@@ -1,17 +1,17 @@
-
 import { APIGatewayProxyResult } from "aws-lambda";
 import { fetchDataSourceLinks } from "../utils";
+import { filterDataSourcesTime } from "../utils/filterDataSourcesTime";
 
 export const handler = async (): Promise<APIGatewayProxyResult> => {
-  const links = await fetchDataSourceLinks();
+  const dataSources = await fetchDataSourceLinks();
 
-  console.log({ links });
+  const filteredDataSourcesTime = await filterDataSourcesTime(dataSources);
 
-  // const filteredLinks = await filterLinks(links);
+
 
   // const summaries = await generateSummaries(filteredLinks);
   return {
     statusCode: 200,
-    body: JSON.stringify({ links }),
+    body: JSON.stringify({ filteredDataSourcesTime }),
   };
 };

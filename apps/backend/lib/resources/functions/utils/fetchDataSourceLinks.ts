@@ -1,16 +1,16 @@
 import { DOMParser } from "@xmldom/xmldom";
 
-export interface DataSourceItem {
+interface DataSourceItem {
   title: string;
   link: string;
   pubDate: string;
 }
 
-interface Data {
+export interface DataSources {
   items: DataSourceItem[];
 }
 
-export const fetchDataSourceLinks = async (): Promise<Data> => {
+export const fetchDataSourceLinks = async (): Promise<DataSources> => {
   const whatsNewRssFeed =
     "https://aws.amazon.com/about-aws/whats-new/recent/feed/";
 
@@ -20,9 +20,8 @@ export const fetchDataSourceLinks = async (): Promise<Data> => {
 
   const parser = new DOMParser();
   const doc = parser.parseFromString(whatsNewRssFeedResponse, "application/xml");
-  console.log(doc);
 
-  const data: Data = {
+  const data: DataSources = {
     items: [],
   };
 
