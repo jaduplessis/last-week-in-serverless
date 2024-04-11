@@ -73,6 +73,14 @@
     {
       "path": "backend/rag",
       "name": "rag [service]"
+    },
+    {
+      "path": "packages/cdk-constructs",
+      "name": "cdk-constructs [package]"
+    },
+    {
+      "path": "packages/helpers",
+      "name": "helpers [package]"
     }
   ]
 }
