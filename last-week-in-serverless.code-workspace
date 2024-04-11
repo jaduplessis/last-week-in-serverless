@@ -71,8 +71,20 @@
       "name": "src [preprocessing]"
     },
     {
-      "path": "backend/rag",
+      "path": "apps/rag",
       "name": "rag [service]"
+    },
+    {
+      "path": "apps/backend",
+      "name": "backend [service]"
+    },
+    {
+      "path": "packages/cdk-constructs",
+      "name": "cdk-constructs [package]"
+    },
+    {
+      "path": "packages/helpers",
+      "name": "helpers [package]"
     }
   ]
 }
