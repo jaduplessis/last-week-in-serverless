@@ -1,0 +1,158 @@
+{
+  "0": {
+    "title": "Cross-account observability enabled for CloudWatch Internet Monitor",
+    "summary_max": 0.9182175396545702
+  },
+  "1": {
+    "title": "AWS Lambda supports Kafka event sources in four new regions",
+    "summary_max": 0.9131915861372479
+  },
+  "2": {
+    "title": "Amazon Location Service releases Tracking SDK for iOS and Android",
+    "summary_max": 0.9054866450716564
+  },
+  "3": {
+    "title": "Amazon OpenSearch Service doubles storage for OR1 and expands to four more regions",
+    "summary_max": 0.900699246492435
+  },
+  "4": {
+    "title": "Amazon CloudWatch now supports cross-account anomaly detection",
+    "summary_max": 0.89907387730726
+  },
+  "5": {
+    "title": "Amazon Cognito is now available in Asia Pacific (Melbourne) Region",
+    "summary_max": 0.8909917602087223
+  },
+  "6": {
+    "title": "Amazon Cognito customers can secure access to APIs using Amazon Verified Permissions",
+    "summary_max": 0.8903060064667154
+  },
+  "7": {
+    "title": "Amazon RDS now supports M6gd database instances in six additional AWS regions",
+    "summary_max": 0.88029435552858
+  },
+  "8": {
+    "title": "Launch Amazon CloudWatch Internet Monitor from Amazon CloudFront console",
+    "summary_max": 0.879528882867833
+  },
+  "9": {
+    "title": "Amazon OpenSearch Ingestion now supports enrichment of streaming data with geographical location",
+    "summary_max": 0.8761114742363824
+  },
+  "10": {
+    "title": "Knowledge Bases for Amazon Bedrock offers support for CloudFormation and Service Quotas",
+    "summary_max": 0.8749403830151393
+  },
+  "11": {
+    "title": "AWS Transfer Family introduces a new workshop for SFTP",
+    "summary_max": 0.8734476712877219
+  },
+  "12": {
+    "title": "Amazon CloudWatch now supports tagging alarms with AWS CloudFormation",
+    "summary_max": 0.8732247436796299
+  },
+  "13": {
+    "title": "Announcing availability of AWS Outposts in the Kingdom of Saudi Arabia",
+    "summary_max": 0.8676549969937571
+  },
+  "14": {
+    "title": "Research and Engineering Studio on AWS Version 2024.04 now available",
+    "summary_max": 0.8639550638380489
+  },
+  "15": {
+    "title": "Amazon OpenSearch Service now lets you update node count without blue/green",
+    "summary_max": 0.8625459434688303
+  },
+  "16": {
+    "title": "Amazon Bedrock is now available in the AWS Europe (Paris) Region",
+    "summary_max": 0.8623572379077307
+  },
+  "17": {
+    "title": "Amazon CloudWatch RUM is generally available in 11 additional AWS Regions",
+    "summary_max": 0.8601160885110977
+  },
+  "18": {
+    "title": "Amazon DataZone launches integration with AWS Glue Data Quality",
+    "summary_max": 0.8558518951133411
+  },
+  "19": {
+    "title": "Amazon DataZone announces integration with AWS Lake Formation hybrid mode",
+    "summary_max": 0.8527686317775004
+  },
+  "20": {
+    "title": "Announcing AWS Transfer Family workshop for building secure file transfer solutions using SFTP",
+    "summary_max": 0.8493253366572286
+  },
+  "21": {
+    "title": "AWS Transfer Family offers predefined security policies for SFTP connectors",
+    "summary_max": 0.8482154356280354
+  },
+  "22": {
+    "title": "AWS Clean Rooms ML is now generally available",
+    "summary_max": 0.8470996795236828
+  },
+  "23": {
+    "title": "AWS Lambda adds support for Ruby 3.3",
+    "summary_max": 0.8469050680172704
+  },
+  "24": {
+    "title": "AWS AppSync forwards application request headers to AWS Lambda custom authorizer functions",
+    "summary_max": 0.8451968356786129
+  },
+  "25": {
+    "title": "AWS Application Migration Service now supports migration of UEFI servers",
+    "summary_max": 0.8428824832992545
+  },
+  "26": {
+    "title": "Amazon SageMaker notebooks now support P5, C6i, C7i, M6i, M7i, R6i, and R7i instance types",
+    "summary_max": 0.8427013780505369
+  },
+  "27": {
+    "title": "Amazon RDS for MySQL supports rds_superuser_role for easier implementation of role based privileges",
+    "summary_max": 0.8412682249881954
+  },
+  "28": {
+    "title": "Amazon SageMaker Studio Code Editor now supports custom images",
+    "summary_max": 0.8317367779351293
+  },
+  "29": {
+    "title": "AWS Elemental MediaLive now supports CMAF Ingest output group",
+    "summary_max": 0.8300998371668359
+  },
+  "30": {
+    "title": "Amazon VPC CNI now supports automatic subnet discovery",
+    "summary_max": 0.8235385660526557
+  },
+  "31": {
+    "title": "AWS India customers can now use UPI (Unified Payments Interface) to make payments",
+    "summary_max": 0.8228497019938474
+  },
+  "32": {
+    "title": "Amazon CloudFront now supports Common Media Client Data (CMCD) fields in real-time logs",
+    "summary_max": 0.8221506692906644
+  },
+  "33": {
+    "title": "AWS B2B Data Interchange is now HIPAA eligible and supports X12 version 5010 HIPAA transactions",
+    "summary_max": 0.8188012912994029
+  },
+  "34": {
+    "title": "Amazon IVS Low-Latency Streaming now supports SRT ingest",
+    "summary_max": 0.8174699022144414
+  },
+  "35": {
+    "title": "Knowledge Bases for Amazon Bedrock now supports Claude 3 Haiku",
+    "summary_max": 0.8164371212928219
+  },
+  "36": {
+    "title": "Amazon Route 53 adds support for 18 additional Top-Level Domains",
+    "summary_max": 0.8103167348331374
+  },
+  "37": {
+    "title": "Amazon CodeCatalyst now supports adding tasks to issues",
+    "summary_max": 0.805985375490834
+  },
+  "38": {
+    "title": "Mistral Large foundation model now available on Amazon Bedrock",
+    "summary_max": 0.796903378455911
+  }
+}

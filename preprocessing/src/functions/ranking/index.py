@@ -7,12 +7,7 @@ from constants import SETTINGS
 def rank_data_relevance():
     ''' Function to rank the data relevance from the dot product results
 
-    Multiple approaches to take, each one applied to a different field (title, content, summary)
-    1. Average the dot product results
-    2. Take the single highest dot product result
-    3. Take the five highest dot product results
-    
-
+    Approach is to take the maximum dot product value from the summary comparison
     '''
     
 

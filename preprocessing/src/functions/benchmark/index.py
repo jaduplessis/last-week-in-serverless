@@ -49,7 +49,7 @@ def fetch_content(link):
     return string_content, summary, title.text
 
 
-def generate_documents():
+def generate_benchmark_data():
     all_links = fetch_external_links()
     all_content = []
 
@@ -66,8 +66,7 @@ def generate_documents():
             "summary": summary,
             "content": content,
         })
-        with open(SETTINGS.rss_feed_file, 'w') as f:
 
+        with open(SETTINGS.benchmark_data_file, 'w') as f:
             json.dump(data, f, indent=2)
-
 
