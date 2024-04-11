@@ -1,11 +1,10 @@
-import { buildResourceName, getCdkHandlerPath } from "@article-gpt/helpers";
+import { WebSocketApi } from "@aws-cdk/aws-apigatewayv2-alpha";
+import { buildResourceName, getCdkHandlerPath } from "@last-week/helpers";
 import { Duration } from "aws-cdk-lib";
 import { Table } from "aws-cdk-lib/aws-dynamodb";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
 import { Construct } from "constructs";
 import { ArticleGPTCustomResource } from "../../../custom-resource-lambda/config";
-import { WebSocketApi } from "@aws-cdk/aws-apigatewayv2-alpha";
-
 
 interface WsGetConnectionIdProps {
   connectionTable: Table;

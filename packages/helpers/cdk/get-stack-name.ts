@@ -4,6 +4,6 @@ export const getStackName = (): string => {
   return getArg({
     cliArg: "stackName",
     processEnvName: "STACK_NAME",
-    defaultValue: "article-gpt",
+    defaultValue: "last-week",
   });
 };

@@ -1,6 +1,6 @@
-import { buildResourceName, getRegion, getStage } from "@article-gpt/helpers";
 import { WebSocketApi, WebSocketStage } from "@aws-cdk/aws-apigatewayv2-alpha";
 import { WebSocketLambdaIntegration } from "@aws-cdk/aws-apigatewayv2-integrations-alpha";
+import { buildResourceName, getRegion, getStage } from "@last-week/helpers";
 import { Table } from "aws-cdk-lib/aws-dynamodb";
 import { Construct } from "constructs";
 import { DynamoDBConstruct } from "../dynamodb/config";
@@ -54,7 +54,7 @@ export class WebSocket extends Construct {
     });
 
     this.wsApiEndpoint = `https://${this.webSocketApi.apiId}.execute-api.${region}.amazonaws.com/${stage}`;
-    
+
     const getConnectionIdHandler = new WsGetConnectionId(
       this,
       "ws-get-connection-id",
@@ -64,7 +64,7 @@ export class WebSocket extends Construct {
         wsApiEndpoint: this.wsApiEndpoint,
       }
     );
-    
+
     this.webSocketApi.addRoute("getConnectionId", {
       integration: new WebSocketLambdaIntegration(
         "ws-get-connection-id-integration",

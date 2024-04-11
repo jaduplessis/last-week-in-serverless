@@ -1,8 +1,8 @@
-import { getEnvVariable, getRegion } from "@article-gpt/helpers";
 import {
   ApiGatewayManagementApiClient,
   PostToConnectionCommand,
 } from "@aws-sdk/client-apigatewaymanagementapi";
+import { getEnvVariable, getRegion } from "@last-week/helpers";
 import {
   APIGatewayProxyResultV2,
   APIGatewayProxyWebsocketEventV2,

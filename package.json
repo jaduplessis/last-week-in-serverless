@@ -1,5 +1,5 @@
 {
-  "name": "last-week",
+  "name": "last-week-serverless",
   "private": true,
   "workspaces": [
     "packages/*"

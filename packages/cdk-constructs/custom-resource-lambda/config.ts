@@ -1,4 +1,4 @@
-import { sharedLambdaEsbuildConfig } from "@article-gpt/helpers";
+import { sharedLambdaEsbuildConfig } from "@last-week/helpers";
 import { Duration } from "aws-cdk-lib";
 import { Role } from "aws-cdk-lib/aws-iam";
 import { Runtime } from "aws-cdk-lib/aws-lambda";

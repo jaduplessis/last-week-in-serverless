@@ -1,4 +1,4 @@
-import { buildResourceName } from "@article-gpt/helpers";
+import { buildResourceName } from "@last-week/helpers";
 import { CfnOutput } from "aws-cdk-lib";
 import {
   ApiKey,
@@ -43,7 +43,7 @@ export class ArticleGPTApiGateway extends Construct {
 
     usagePlan.addApiKey(apiKey);
 
-    createIntegrations({ ...props, api: this.restApi});
+    createIntegrations({ ...props, api: this.restApi });
 
     new CfnOutput(this, "apiKey", {
       description: "API Key",

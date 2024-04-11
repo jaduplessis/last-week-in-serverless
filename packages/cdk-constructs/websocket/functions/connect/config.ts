@@ -1,4 +1,4 @@
-import { buildResourceName, getCdkHandlerPath } from "@article-gpt/helpers";
+import { buildResourceName, getCdkHandlerPath } from "@last-week/helpers";
 import { Duration } from "aws-cdk-lib";
 import { Table } from "aws-cdk-lib/aws-dynamodb";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";

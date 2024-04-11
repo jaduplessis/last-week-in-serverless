@@ -1,7 +1,7 @@
 import { DynamoDB } from "@aws-sdk/client-dynamodb";
 import { Table } from "dynamodb-toolbox";
 
-import { buildResourceName, getRegion } from "@article-gpt/helpers";
+import { buildResourceName, getRegion } from "@last-week/helpers";
 
 const documentClient = new DynamoDB({
   region: getRegion(),

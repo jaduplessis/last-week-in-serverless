@@ -1,4 +1,4 @@
-import { buildResourceName, getStage } from "@article-gpt/helpers";
+import { buildResourceName, getStage } from "@last-week/helpers";
 import { CfnOutput, Stack } from "aws-cdk-lib";
 import { Construct } from "constructs";
 
@@ -7,7 +7,7 @@ import {
   DynamoDBConstruct,
   ResultsBucket,
   WebSocket,
-} from "@article-gpt/cdk-constructs";
+} from "@last-week/cdk-constructs";
 import { LambdaIntegration } from "aws-cdk-lib/aws-apigateway";
 import { HttpMethod } from "aws-cdk-lib/aws-lambda";
 import {
