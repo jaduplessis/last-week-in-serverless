@@ -1,16 +1,11 @@
 import json
+
 from constants import SETTINGS
 from functions.utils.soup import soupify
 
 
-def fetcher_li_items():
+def fetch_rss_whats_new_feed():
   """ Function to fetch the li items from the AWS What's New page for class type 
-
-  
-  """
-  whats_new_rss_feed = SETTINGS.whats_new_rss_feed
-
-  soup = soupify(whats_new_rss_feed, 'xml')
   # Data structure:
   # {
   #   items: [
@@ -22,7 +17,11 @@ def fetcher_li_items():
   #     ...
   #   ]
   # }
+  """
+  whats_new_rss_feed = SETTINGS.whats_new_rss_feed
 
+  soup = soupify(whats_new_rss_feed, 'xml')
+  
   data = {
     "items": [],
   }
@@ -56,6 +55,6 @@ def save_data(data):
     data (dict): The data to save
   """
 
-  with open(SETTINGS.whats_new_output, "w") as f:
+  with open(SETTINGS.whats_new_file, "w") as f:
     json.dump(data, f, indent=2)
   print("Data saved to data/whats_new.json")

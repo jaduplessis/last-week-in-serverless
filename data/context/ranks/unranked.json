@@ -1,0 +1,665 @@
+{
+  "Amazon DataZone launches integration with AWS Glue Data Quality": {
+    "content": {
+      "max": 0.8283964563053152,
+      "max_5": 0.8124296570881983,
+      "avg": 0.7634498916318021
+    },
+    "title": {
+      "max": 0.8604212604897671,
+      "max_5": 0.8497241867357838,
+      "avg": 0.8150538775533541
+    },
+    "summary": {
+      "max": 0.8558518951133411,
+      "max_5": 0.8500977567605327,
+      "avg": 0.8182747976633317
+    }
+  },
+  "Amazon DataZone announces integration with AWS Lake Formation hybrid mode": {
+    "content": {
+      "max": 0.8220561816136069,
+      "max_5": 0.8117216435181301,
+      "avg": 0.7636042908805819
+    },
+    "title": {
+      "max": 0.8452380767473116,
+      "max_5": 0.8371577635654557,
+      "avg": 0.8106833425791051
+    },
+    "summary": {
+      "max": 0.8527686317775004,
+      "max_5": 0.8401266627431314,
+      "avg": 0.8064703878191859
+    }
+  },
+  "Amazon Cognito is now available in Asia Pacific (Melbourne) Region": {
+    "content": {
+      "max": 0.8352312052025996,
+      "max_5": 0.8187993668222411,
+      "avg": 0.7587780958174519
+    },
+    "title": {
+      "max": 0.9156813772505737,
+      "max_5": 0.8524625078330965,
+      "avg": 0.7999613087707242
+    },
+    "summary": {
+      "max": 0.8909917602087223,
+      "max_5": 0.8570963950640544,
+      "avg": 0.8102210500511834
+    }
+  },
+  "Amazon OpenSearch Ingestion now supports enrichment of streaming data with geographical location": {
+    "content": {
+      "max": 0.824107888107161,
+      "max_5": 0.8012960929451941,
+      "avg": 0.752321545985337
+    },
+    "title": {
+      "max": 0.8620923321205824,
+      "max_5": 0.8448730085632377,
+      "avg": 0.7960388107715846
+    },
+    "summary": {
+      "max": 0.8761114742363824,
+      "max_5": 0.8501866271027116,
+      "avg": 0.8053961727987949
+    }
+  },
+  "AWS Clean Rooms ML is now generally available": {
+    "content": {
+      "max": 0.8052419130955996,
+      "max_5": 0.782357020439757,
+      "avg": 0.747857005105905
+    },
+    "title": {
+      "max": 0.8389062380400136,
+      "max_5": 0.8233513245455194,
+      "avg": 0.7993857320324493
+    },
+    "summary": {
+      "max": 0.8470996795236828,
+      "max_5": 0.8377528242881003,
+      "avg": 0.8058001252539492
+    }
+  },
+  "Amazon Cognito customers can secure access to APIs using Amazon Verified Permissions": {
+    "content": {
+      "max": 0.8180807605032003,
+      "max_5": 0.8053888737341325,
+      "avg": 0.7606286121750747
+    },
+    "title": {
+      "max": 0.8510442602059358,
+      "max_5": 0.8361881843421767,
+      "avg": 0.8050487265636171
+    },
+    "summary": {
+      "max": 0.8903060064667154,
+      "max_5": 0.8551875868120025,
+      "avg": 0.8172230006360824
+    }
+  },
+  "Amazon CloudWatch now supports cross-account anomaly detection": {
+    "content": {
+      "max": 0.8833411498620188,
+      "max_5": 0.8250481198332338,
+      "avg": 0.7559456937206429
+    },
+    "title": {
+      "max": 0.9024304045945375,
+      "max_5": 0.8614913378483724,
+      "avg": 0.8101927784597579
+    },
+    "summary": {
+      "max": 0.89907387730726,
+      "max_5": 0.8700801197071589,
+      "avg": 0.8181154861842165
+    }
+  },
+  "AWS Lambda supports Kafka event sources in four new regions": {
+    "content": {
+      "max": 0.8843652907359935,
+      "max_5": 0.820055034207351,
+      "avg": 0.7607588756253639
+    },
+    "title": {
+      "max": 0.8795500153065672,
+      "max_5": 0.8431002500958961,
+      "avg": 0.80238823903718
+    },
+    "summary": {
+      "max": 0.9131915861372479,
+      "max_5": 0.8605287924007037,
+      "avg": 0.8206791476798515
+    }
+  },
+  "Amazon SageMaker Studio Code Editor now supports custom images": {
+    "content": {
+      "max": 0.8106007444801803,
+      "max_5": 0.7832209223956126,
+      "avg": 0.7428090788381998
+    },
+    "title": {
+      "max": 0.8058447337623528,
+      "max_5": 0.8041885586283015,
+      "avg": 0.7797692555842001
+    },
+    "summary": {
+      "max": 0.8317367779351293,
+      "max_5": 0.8171740527285284,
+      "avg": 0.7876721560895253
+    }
+  },
+  "Amazon Location Service releases Tracking SDK for iOS and Android": {
+    "content": {
+      "max": 0.9095596125804437,
+      "max_5": 0.8356601531805635,
+      "avg": 0.7561684995306883
+    },
+    "title": {
+      "max": 0.8771060122457246,
+      "max_5": 0.8408478981104629,
+      "avg": 0.7939825017793274
+    },
+    "summary": {
+      "max": 0.9054866450716564,
+      "max_5": 0.8511211315157944,
+      "avg": 0.7981262265011686
+    }
+  },
+  "Amazon Bedrock is now available in the AWS Europe (Paris) Region": {
+    "content": {
+      "max": 0.8338933049410008,
+      "max_5": 0.8183815253516091,
+      "avg": 0.758375538212298
+    },
+    "title": {
+      "max": 0.8759434589800024,
+      "max_5": 0.8464635121017856,
+      "avg": 0.8031027751689003
+    },
+    "summary": {
+      "max": 0.8623572379077307,
+      "max_5": 0.8488810637822557,
+      "avg": 0.8045808514586931
+    }
+  },
+  "Amazon RDS now supports M6gd database instances in six additional AWS regions": {
+    "content": {
+      "max": 0.8321543188347349,
+      "max_5": 0.8098254658313166,
+      "avg": 0.7526020836841588
+    },
+    "title": {
+      "max": 0.8545361281121452,
+      "max_5": 0.8457690005073051,
+      "avg": 0.8096193885910364
+    },
+    "summary": {
+      "max": 0.88029435552858,
+      "max_5": 0.8494423401296132,
+      "avg": 0.8080270139027255
+    }
+  },
+  "AWS B2B Data Interchange is now HIPAA eligible and supports X12 version 5010 HIPAA transactions": {
+    "content": {
+      "max": 0.7647758449035496,
+      "max_5": 0.7536154079377833,
+      "avg": 0.7213417431766707
+    },
+    "title": {
+      "max": 0.7984897448221677,
+      "max_5": 0.7948689772911693,
+      "avg": 0.771081518058509
+    },
+    "summary": {
+      "max": 0.8188012912994029,
+      "max_5": 0.8094015248981423,
+      "avg": 0.780979785903457
+    }
+  },
+  "Knowledge Bases for Amazon Bedrock offers support for CloudFormation and Service Quotas": {
+    "content": {
+      "max": 0.843227926466539,
+      "max_5": 0.8030754948164975,
+      "avg": 0.7615953028875325
+    },
+    "title": {
+      "max": 0.8782694696622738,
+      "max_5": 0.8316263562574264,
+      "avg": 0.7999539902079718
+    },
+    "summary": {
+      "max": 0.8749403830151393,
+      "max_5": 0.8513510509634334,
+      "avg": 0.8177587929339193
+    }
+  },
+  "Amazon VPC CNI now supports automatic subnet discovery": {
+    "content": {
+      "max": 0.8161919927753514,
+      "max_5": 0.7783057372621767,
+      "avg": 0.7420659916501975
+    },
+    "title": {
+      "max": 0.8164498603137249,
+      "max_5": 0.8111711792952268,
+      "avg": 0.7832716375215125
+    },
+    "summary": {
+      "max": 0.8235385660526557,
+      "max_5": 0.8141187437692385,
+      "avg": 0.7895708470911671
+    }
+  },
+  "Amazon OpenSearch Service doubles storage for OR1 and expands to four more regions": {
+    "content": {
+      "max": 0.8463853137935575,
+      "max_5": 0.8098441045311329,
+      "avg": 0.7526609798688344
+    },
+    "title": {
+      "max": 0.8801763506670308,
+      "max_5": 0.8517414927461303,
+      "avg": 0.8078874433680746
+    },
+    "summary": {
+      "max": 0.900699246492435,
+      "max_5": 0.8635457487064808,
+      "avg": 0.8177084422776624
+    }
+  },
+  "Amazon CloudWatch RUM is generally available in 11 additional AWS Regions": {
+    "content": {
+      "max": 0.8215044090689357,
+      "max_5": 0.8129889593545702,
+      "avg": 0.7585323771579442
+    },
+    "title": {
+      "max": 0.8589971661747643,
+      "max_5": 0.8446638065632806,
+      "avg": 0.8031574317393622
+    },
+    "summary": {
+      "max": 0.8601160885110977,
+      "max_5": 0.847015310739876,
+      "avg": 0.8118455775208105
+    }
+  },
+  "AWS Transfer Family offers predefined security policies for SFTP connectors": {
+    "content": {
+      "max": 0.777391293861106,
+      "max_5": 0.7606657013406981,
+      "avg": 0.7276190881062413
+    },
+    "title": {
+      "max": 0.8009256101610246,
+      "max_5": 0.7965936498350665,
+      "avg": 0.7714366607917668
+    },
+    "summary": {
+      "max": 0.8482154356280354,
+      "max_5": 0.8395670615991531,
+      "avg": 0.8006368025182362
+    }
+  },
+  "Amazon SageMaker notebooks now support P5, C6i, C7i, M6i, M7i, R6i, and R7i instance types": {
+    "content": {
+      "max": 0.8094023214519321,
+      "max_5": 0.7719095978703636,
+      "avg": 0.7318899027345402
+    },
+    "title": {
+      "max": 0.8191231918888224,
+      "max_5": 0.8131658662367707,
+      "avg": 0.788275875664208
+    },
+    "summary": {
+      "max": 0.8427013780505369,
+      "max_5": 0.828737879120589,
+      "avg": 0.7948764120154316
+    }
+  },
+  "AWS Transfer Family introduces a new workshop for SFTP": {
+    "content": {
+      "max": 0.8059964901439374,
+      "max_5": 0.7784408537884604,
+      "avg": 0.738279204415489
+    },
+    "title": {
+      "max": 0.806025321416507,
+      "max_5": 0.8001875647588375,
+      "avg": 0.7809929864270685
+    },
+    "summary": {
+      "max": 0.8734476712877219,
+      "max_5": 0.8542156267111721,
+      "avg": 0.817541066524793
+    }
+  },
+  "Amazon Route 53 adds support for 18 additional Top-Level Domains": {
+    "content": {
+      "max": 0.8025033594698959,
+      "max_5": 0.7698678471953471,
+      "avg": 0.7339283087943768
+    },
+    "title": {
+      "max": 0.8365828754231639,
+      "max_5": 0.8228795249611883,
+      "avg": 0.7922758638992647
+    },
+    "summary": {
+      "max": 0.8103167348331374,
+      "max_5": 0.8004534665924684,
+      "avg": 0.7793589892897275
+    }
+  },
+  "Amazon CloudWatch now supports tagging alarms with AWS CloudFormation": {
+    "content": {
+      "max": 0.8351096391118594,
+      "max_5": 0.8152059328531219,
+      "avg": 0.7585768605365605
+    },
+    "title": {
+      "max": 0.8833129787737019,
+      "max_5": 0.8509503934593468,
+      "avg": 0.8104337988665672
+    },
+    "summary": {
+      "max": 0.8732247436796299,
+      "max_5": 0.8489785618264829,
+      "avg": 0.8086913991105551
+    }
+  },
+  "Research and Engineering Studio on AWS Version 2024.04 now available": {
+    "content": {
+      "max": 0.8228433827550593,
+      "max_5": 0.7964649937625831,
+      "avg": 0.7539875497803805
+    },
+    "title": {
+      "max": 0.8328615729993598,
+      "max_5": 0.8230478577820785,
+      "avg": 0.8042553165217176
+    },
+    "summary": {
+      "max": 0.8639550638380489,
+      "max_5": 0.8362407792085003,
+      "avg": 0.8061630854497732
+    }
+  },
+  "AWS Application Migration Service now supports migration of UEFI servers": {
+    "content": {
+      "max": 0.8141299914845548,
+      "max_5": 0.7847411726949034,
+      "avg": 0.7429963293683908
+    },
+    "title": {
+      "max": 0.8627702071839212,
+      "max_5": 0.8347588442432194,
+      "avg": 0.8021271123558925
+    },
+    "summary": {
+      "max": 0.8428824832992545,
+      "max_5": 0.8373504652939822,
+      "avg": 0.7999860292824997
+    }
+  },
+  "Amazon CodeCatalyst now supports adding tasks to issues": {
+    "content": {
+      "max": 0.8009604059370411,
+      "max_5": 0.7699971380134163,
+      "avg": 0.7350662125358975
+    },
+    "title": {
+      "max": 0.8129685191540481,
+      "max_5": 0.810662260758128,
+      "avg": 0.7811762159468222
+    },
+    "summary": {
+      "max": 0.805985375490834,
+      "max_5": 0.8010861025248683,
+      "avg": 0.7803889411958607
+    }
+  },
+  "Announcing availability of AWS Outposts in the Kingdom of Saudi Arabia": {
+    "content": {
+      "max": 0.824192739064501,
+      "max_5": 0.8033439061397886,
+      "avg": 0.7532115949512477
+    },
+    "title": {
+      "max": 0.8707254655979986,
+      "max_5": 0.8353320305263174,
+      "avg": 0.7998795147948425
+    },
+    "summary": {
+      "max": 0.8676549969937571,
+      "max_5": 0.8515435238130038,
+      "avg": 0.8071042198100538
+    }
+  },
+  "Mistral Large foundation model now available on Amazon Bedrock": {
+    "content": {
+      "max": 0.7902402755291016,
+      "max_5": 0.767859488856221,
+      "avg": 0.7310825065047388
+    },
+    "title": {
+      "max": 0.7871707452511059,
+      "max_5": 0.7762129482337758,
+      "avg": 0.7548621897378772
+    },
+    "summary": {
+      "max": 0.796903378455911,
+      "max_5": 0.7894440799450017,
+      "avg": 0.7673603175141744
+    }
+  },
+  "Knowledge Bases for Amazon Bedrock now supports Claude 3 Haiku": {
+    "content": {
+      "max": 0.791600751258273,
+      "max_5": 0.7730165599881346,
+      "avg": 0.7352568403643348
+    },
+    "title": {
+      "max": 0.8122345718820376,
+      "max_5": 0.8074543137835615,
+      "avg": 0.7790278711240789
+    },
+    "summary": {
+      "max": 0.8164371212928219,
+      "max_5": 0.8040272374735584,
+      "avg": 0.7776707638893107
+    }
+  },
+  "Announcing AWS Transfer Family workshop for building secure file transfer solutions using SFTP": {
+    "content": {
+      "max": 0.7897799950628073,
+      "max_5": 0.7676287585494512,
+      "avg": 0.7287253778401278
+    },
+    "title": {
+      "max": 0.8054436212456977,
+      "max_5": 0.8007202624226337,
+      "avg": 0.7788110531724939
+    },
+    "summary": {
+      "max": 0.8493253366572286,
+      "max_5": 0.8315552341593815,
+      "avg": 0.798565975134399
+    }
+  },
+  "AWS India customers can now use UPI (Unified Payments Interface) to make payments": {
+    "content": {
+      "max": 0.7823066363529292,
+      "max_5": 0.7657438190426322,
+      "avg": 0.7305098655160228
+    },
+    "title": {
+      "max": 0.8253244691353576,
+      "max_5": 0.8088761623748096,
+      "avg": 0.7829330001937196
+    },
+    "summary": {
+      "max": 0.8228497019938474,
+      "max_5": 0.8126899485347658,
+      "avg": 0.7892441194037998
+    }
+  },
+  "AWS Lambda adds support for Ruby 3.3": {
+    "content": {
+      "max": 0.8043232895176885,
+      "max_5": 0.7866796416657755,
+      "avg": 0.7497647789418359
+    },
+    "title": {
+      "max": 0.8198082962972519,
+      "max_5": 0.8163385001519922,
+      "avg": 0.791070226295052
+    },
+    "summary": {
+      "max": 0.8469050680172704,
+      "max_5": 0.8394448200138209,
+      "avg": 0.8083552293402827
+    }
+  },
+  "Amazon RDS for MySQL supports rds_superuser_role for easier implementation of role based privileges": {
+    "content": {
+      "max": 0.7889694474461771,
+      "max_5": 0.7845069765829447,
+      "avg": 0.7370105119078014
+    },
+    "title": {
+      "max": 0.8230528036827174,
+      "max_5": 0.8074515400693171,
+      "avg": 0.7812094724358354
+    },
+    "summary": {
+      "max": 0.8412682249881954,
+      "max_5": 0.8280335878963638,
+      "avg": 0.7971908126490985
+    }
+  },
+  "Amazon OpenSearch Service now lets you update node count without blue/green": {
+    "content": {
+      "max": 0.8284896126807102,
+      "max_5": 0.786952002956484,
+      "avg": 0.7447837771706576
+    },
+    "title": {
+      "max": 0.8315861430543271,
+      "max_5": 0.8088367673242167,
+      "avg": 0.7751171184590157
+    },
+    "summary": {
+      "max": 0.8625459434688303,
+      "max_5": 0.8344496952050932,
+      "avg": 0.8013432965274992
+    }
+  },
+  "Cross-account observability enabled for CloudWatch Internet Monitor": {
+    "content": {
+      "max": 0.8701713883548965,
+      "max_5": 0.8147078018504292,
+      "avg": 0.7506203641629788
+    },
+    "title": {
+      "max": 0.8724099110644058,
+      "max_5": 0.8351099325665287,
+      "avg": 0.7857133970609528
+    },
+    "summary": {
+      "max": 0.9182175396545702,
+      "max_5": 0.8649380660329186,
+      "avg": 0.8091686484552991
+    }
+  },
+  "AWS Elemental MediaLive now supports CMAF Ingest output group": {
+    "content": {
+      "max": 0.7795344662658916,
+      "max_5": 0.7567734909274211,
+      "avg": 0.7296581389457617
+    },
+    "title": {
+      "max": 0.7936109414405967,
+      "max_5": 0.7895448429190053,
+      "avg": 0.766765983735645
+    },
+    "summary": {
+      "max": 0.8300998371668359,
+      "max_5": 0.80055113378695,
+      "avg": 0.773765858840208
+    }
+  },
+  "Amazon CloudFront now supports Common Media Client Data (CMCD) fields in real-time logs": {
+    "content": {
+      "max": 0.7746490555163696,
+      "max_5": 0.7685427831347409,
+      "avg": 0.7238223009783472
+    },
+    "title": {
+      "max": 0.8314397918455753,
+      "max_5": 0.8216980293264324,
+      "avg": 0.7887123149245273
+    },
+    "summary": {
+      "max": 0.8221506692906644,
+      "max_5": 0.8162567842184221,
+      "avg": 0.7831156978145417
+    }
+  },
+  "AWS AppSync forwards application request headers to AWS Lambda custom authorizer functions": {
+    "content": {
+      "max": 0.7675492536579175,
+      "max_5": 0.7583186181442143,
+      "avg": 0.7273419424305353
+    },
+    "title": {
+      "max": 0.8089622464126249,
+      "max_5": 0.7934451460403732,
+      "avg": 0.7632044336827707
+    },
+    "summary": {
+      "max": 0.8451968356786129,
+      "max_5": 0.8255803569470848,
+      "avg": 0.797280429262838
+    }
+  },
+  "Amazon IVS Low-Latency Streaming now supports SRT ingest": {
+    "content": {
+      "max": 0.7718789485768209,
+      "max_5": 0.7684687124128763,
+      "avg": 0.7328328842255428
+    },
+    "title": {
+      "max": 0.8244616011528669,
+      "max_5": 0.8174323071836328,
+      "avg": 0.783170429287586
+    },
+    "summary": {
+      "max": 0.8174699022144414,
+      "max_5": 0.8074522761691855,
+      "avg": 0.7811996498142926
+    }
+  },
+  "Launch Amazon CloudWatch Internet Monitor from Amazon CloudFront console": {
+    "content": {
+      "max": 0.8140623767494163,
+      "max_5": 0.8015693223519001,
+      "avg": 0.7488215997009743
+    },
+    "title": {
+      "max": 0.8321533357384744,
+      "max_5": 0.8152974327779579,
+      "avg": 0.7734694807862623
+    },
+    "summary": {
+      "max": 0.879528882867833,
+      "max_5": 0.8524176546530157,
+      "avg": 0.8098062977176077
+    }
+  }
+}

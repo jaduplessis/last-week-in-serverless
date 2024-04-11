@@ -63,16 +63,16 @@
       "name": "last-week-in-serverless root"
     },
     {
+      "path": "data",
+      "name": "data [preprocessing]"
+    },
+    {
       "path": "preprocessing/src",
       "name": "src [preprocessing]"
     },
     {
       "path": "backend/rag",
       "name": "rag [service]"
-    },
-    {
-      "path": "data",
-      "name": "data [preprocessing]"
     }
   ]
 }
