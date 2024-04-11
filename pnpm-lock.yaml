@@ -69,6 +69,9 @@ importers:
       '@middy/core':
         specifier: ~3
         version: 3.6.2
+      '@xmldom/xmldom':
+        specifier: ^0.8.10
+        version: 0.8.10
       aws-cdk:
         specifier: 2.122.0
         version: 2.122.0
@@ -127,6 +130,9 @@ importers:
       '@aws-cdk/aws-apigatewayv2-integrations-alpha':
         specifier: 2.114.1-alpha.0
         version: 2.114.1-alpha.0(@aws-cdk/aws-apigatewayv2-alpha@2.114.1-alpha.0)(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-cdk/aws-lambda-python-alpha':
+        specifier: 2.137.0-alpha.0
+        version: 2.137.0-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-sdk/client-apigatewaymanagementapi':
         specifier: ^3.540.0
         version: 3.552.0
@@ -263,6 +269,17 @@ packages:
       constructs: ^10.0.0
     dependencies:
       '@aws-cdk/aws-apigatewayv2-alpha': 2.114.1-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+    dev: false
+
+  /@aws-cdk/aws-lambda-python-alpha@2.137.0-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-bJKq0YkRlynoer8f3yqDOEHUb17+7znYkTnYwX/t7KUCMPPsU3jnQWeQIREEPK4+HX7Ij3i78QGRueXPYtu3Xw==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      aws-cdk-lib: ^2.137.0
+      constructs: ^10.0.0
+    dependencies:
       aws-cdk-lib: 2.122.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: false
@@ -3383,6 +3400,11 @@ packages:
       loupe: 2.3.7
       pretty-format: 29.7.0
     dev: true
+
+  /@xmldom/xmldom@0.8.10:
+    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
+    engines: {node: '>=10.0.0'}
+    dev: false
 
   /abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}

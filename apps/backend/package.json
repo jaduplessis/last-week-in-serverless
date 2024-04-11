@@ -39,6 +39,7 @@
     "@last-week/cdk-constructs": "workspace:^",
     "@last-week/helpers": "workspace:^",
     "@middy/core": "~3",
+    "@xmldom/xmldom": "^0.8.10",
     "aws-cdk": "2.122.0",
     "aws-cdk-lib": "2.122.0",
     "aws-sdk": "^2.1456.0",

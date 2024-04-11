@@ -4,7 +4,7 @@ import {
   Context,
 } from "aws-lambda";
 
-import { BenchmarkEntity } from "../../dataModel";
+import { DataSourceEntity } from "../../dataModel";
 
 import { getEmbedding } from "../utils";
 import { data } from "./benchmark_data";
@@ -33,17 +33,15 @@ export const handler = async (
     const benchmarkItems = items.map(async (item) => {
       const { id, title, link, summary } = item;
 
-      console.log({ title, link, summary });
-
       const embedding = await getEmbedding(title);
-      console.log({ embedding });
 
-      return BenchmarkEntity.update({
+      return DataSourceEntity.update({
         id,
+        SK: "BENCHMARK",
         title,
         link,
         summary,
-        embedding
+        embedding,
       });
     });
 

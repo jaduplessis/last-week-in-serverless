@@ -4,7 +4,7 @@ import { Construct } from "constructs";
 
 import { DynamoDBConstruct } from "@last-week/cdk-constructs";
 
-import { PreloadBenchmark } from "./resources/functions";
+import { PreloadBenchmark, GenerateSummaries } from "./resources/functions";
 
 export class LastWeekStack extends Stack {
   constructor(scope: Construct, id: string) {
@@ -15,6 +15,10 @@ export class LastWeekStack extends Stack {
     });
 
     new PreloadBenchmark(this, "preloadBenchmark", {
+      table: dataSourcesTable.table,
+    });
+
+    new GenerateSummaries(this, "generateSummaries", {
       table: dataSourcesTable.table,
     });
   }
