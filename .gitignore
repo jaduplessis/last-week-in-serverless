@@ -12,3 +12,7 @@
 # Node.js
 node_modules
 **/node_modules
+
+# Cdk
+cdk.out
+cdk.context.json

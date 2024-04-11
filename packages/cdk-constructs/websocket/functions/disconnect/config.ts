@@ -3,7 +3,7 @@ import { Duration } from "aws-cdk-lib";
 import { Table } from "aws-cdk-lib/aws-dynamodb";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
 import { Construct } from "constructs";
-import { ArticleGPTCustomResource } from "../../../custom-resource-lambda/config";
+import { LastWeekCustomResource } from "../../../custom-resource-lambda/config";
 
 interface WsDisconnectProps {
   connectionTable: Table;
@@ -17,7 +17,7 @@ export class WsDisconnect extends Construct {
 
     const { connectionTable } = props;
 
-    this.function = new ArticleGPTCustomResource(
+    this.function = new LastWeekCustomResource(
       this,
       buildResourceName("ws-disconnect"),
       {

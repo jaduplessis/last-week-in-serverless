@@ -7,8 +7,8 @@ const documentClient = new DynamoDB({
   region: getRegion(),
 });
 
-export const OpenAiInvocationsTable = new Table({
-  name: buildResourceName("OpenAi-Invocations"),
+export const DataSourcesTable = new Table({
+  name: buildResourceName("data-sources"),
   partitionKey: "PK",
   sortKey: "SK",
   indexes: {

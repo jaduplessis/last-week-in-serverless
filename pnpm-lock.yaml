@@ -57,6 +57,9 @@ importers:
       '@aws-sdk/util-utf8-node':
         specifier: ^3.259.0
         version: 3.259.0
+      '@langchain/openai':
+        specifier: ^0.0.28
+        version: 0.0.28
       '@last-week/cdk-constructs':
         specifier: workspace:^
         version: link:../../packages/cdk-constructs

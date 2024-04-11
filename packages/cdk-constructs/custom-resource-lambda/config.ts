@@ -5,7 +5,7 @@ import { Runtime } from "aws-cdk-lib/aws-lambda";
 import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
 import { Construct } from "constructs";
 
-export interface ArticleGPTLambdaProps {
+export interface LastWeekLambdaProps {
   lambdaEntry: string;
   environment?: Record<string, string>;
   timeout?: Duration;
@@ -14,8 +14,8 @@ export interface ArticleGPTLambdaProps {
   runtime?: Runtime;
 }
 
-export class ArticleGPTCustomResource extends NodejsFunction {
-  constructor(scope: Construct, id: string, props: ArticleGPTLambdaProps) {
+export class LastWeekCustomResource extends NodejsFunction {
+  constructor(scope: Construct, id: string, props: LastWeekLambdaProps) {
     const { lambdaEntry, environment, memorySize, role, timeout } = props;
 
     const functionName = `${id}-lambda`;
