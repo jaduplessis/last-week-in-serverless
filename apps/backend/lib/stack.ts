@@ -4,7 +4,7 @@ import { Construct } from "constructs";
 
 import { DynamoDBConstruct } from "@last-week/cdk-constructs";
 
-import { PreloadBenchmark, GenerateSummaries } from "./resources/functions";
+import { PreloadBenchmark, GenerateSummaries, DeleteDataSources } from "./resources/functions";
 
 export class LastWeekStack extends Stack {
   constructor(scope: Construct, id: string) {
@@ -18,7 +18,11 @@ export class LastWeekStack extends Stack {
       table: dataSourcesTable.table,
     });
 
-    new GenerateSummaries(this, "generateSummaries", {
+    new GenerateSummaries(this, "generateDataSources", {
+      table: dataSourcesTable.table,
+    });
+
+    new DeleteDataSources(this, "deleteDataSources", {
       table: dataSourcesTable.table,
     });
   }

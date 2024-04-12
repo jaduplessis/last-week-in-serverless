@@ -1,8 +1,6 @@
 import { DataSources } from ".";
 
-export const filterDataSourcesTime = async (
-  dataSources: DataSources
-): Promise<DataSources> => {
+export const dateFilter = (dataSources: DataSources): DataSources => {
   // Get the current date
   const currentDate = new Date();
 

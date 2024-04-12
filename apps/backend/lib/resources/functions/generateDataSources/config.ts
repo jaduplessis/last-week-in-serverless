@@ -11,25 +11,30 @@ import { LastWeekCustomResource } from "@last-week/cdk-constructs";
 import { Duration } from "aws-cdk-lib";
 import { Provider } from "aws-cdk-lib/custom-resources";
 
-interface GenerateSummariesProps {
+interface GenerateDataSourcesProps {
   table: Table;
 }
 
-export class GenerateSummaries extends Construct {
+export class GenerateDataSources extends Construct {
   public function: NodejsFunction;
   public customResourceProvider: Provider;
 
-  constructor(scope: Construct, id: string, { table }: GenerateSummariesProps) {
+  constructor(
+    scope: Construct,
+    id: string,
+    { table }: GenerateDataSourcesProps
+  ) {
     super(scope, id);
 
     this.function = new LastWeekCustomResource(
       this,
-      buildResourceName("generateSummaries"),
+      buildResourceName("generateDataSources"),
       {
         lambdaEntry: getCdkHandlerPath(__dirname),
         timeout: Duration.minutes(5),
         environment: {
           OPENAI_API_KEY: getEnvVariable("OPENAI_API_KEY"),
+          ANTHROPIC_API_KEY: getEnvVariable("ANTHROPIC_API_KEY"),
         },
       }
     );

@@ -57,6 +57,9 @@ importers:
       '@aws-sdk/util-utf8-node':
         specifier: ^3.259.0
         version: 3.259.0
+      '@langchain/anthropic':
+        specifier: ^0.1.14
+        version: 0.1.14
       '@langchain/openai':
         specifier: ^0.0.28
         version: 0.0.28
@@ -90,6 +93,9 @@ importers:
       langchain:
         specifier: ^0.1.28
         version: 0.1.33(@aws-sdk/client-dynamodb@3.552.0)(@aws-sdk/client-lambda@3.552.0)(@aws-sdk/client-s3@3.552.0)(@aws-sdk/credential-provider-node@3.552.0)
+      node-html-parser:
+        specifier: ^6.1.13
+        version: 6.1.13
       ulid:
         specifier: ^2.3.0
         version: 2.3.0
@@ -130,9 +136,6 @@ importers:
       '@aws-cdk/aws-apigatewayv2-integrations-alpha':
         specifier: 2.114.1-alpha.0
         version: 2.114.1-alpha.0(@aws-cdk/aws-apigatewayv2-alpha@2.114.1-alpha.0)(aws-cdk-lib@2.122.0)(constructs@10.3.0)
-      '@aws-cdk/aws-lambda-python-alpha':
-        specifier: 2.137.0-alpha.0
-        version: 2.137.0-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-sdk/client-apigatewaymanagementapi':
         specifier: ^3.540.0
         version: 3.552.0
@@ -224,6 +227,21 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
+  /@anthropic-ai/sdk@0.20.3:
+    resolution: {integrity: sha512-unr02ncd/+uIyWE6Zwcp6Z831hi8RIxh95O82St+2EUG9vUNwFzfQVcoU1Xv4tpPMotu+3+RLkKn5MsfL8zdhA==}
+    dependencies:
+      '@types/node': 18.19.4
+      '@types/node-fetch': 2.6.11
+      abort-controller: 3.0.0
+      agentkeepalive: 4.5.0
+      form-data-encoder: 1.7.2
+      formdata-node: 4.4.1
+      node-fetch: 2.7.0
+      web-streams-polyfill: 3.3.3
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /@anthropic-ai/sdk@0.9.1:
     resolution: {integrity: sha512-wa1meQ2WSfoY8Uor3EdrJq0jTiZJoKoSii2ZVWRY1oN4Tlr5s59pADg9T79FTbPe1/se5c3pBeZgJL63wmuoBA==}
     dependencies:
@@ -269,17 +287,6 @@ packages:
       constructs: ^10.0.0
     dependencies:
       '@aws-cdk/aws-apigatewayv2-alpha': 2.114.1-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.122.0(constructs@10.3.0)
-      constructs: 10.3.0
-    dev: false
-
-  /@aws-cdk/aws-lambda-python-alpha@2.137.0-alpha.0(aws-cdk-lib@2.122.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-bJKq0YkRlynoer8f3yqDOEHUb17+7znYkTnYwX/t7KUCMPPsU3jnQWeQIREEPK4+HX7Ij3i78QGRueXPYtu3Xw==}
-    engines: {node: '>= 14.15.0'}
-    peerDependencies:
-      aws-cdk-lib: ^2.137.0
-      constructs: ^10.0.0
-    dependencies:
       aws-cdk-lib: 2.122.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: false
@@ -2200,6 +2207,19 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
+  /@langchain/anthropic@0.1.14:
+    resolution: {integrity: sha512-7wkBVT0FiuuM6YovDivJmVxLppRul6ID+lQqJPDLrkp0tdEE2yjDvdlrYQJ9thlJ7d4XNV3B95wqXgG3CO8QHQ==}
+    engines: {node: '>=18'}
+    dependencies:
+      '@anthropic-ai/sdk': 0.20.3
+      '@langchain/core': 0.1.57
+      fast-xml-parser: 4.3.6
+      zod: 3.22.4
+      zod-to-json-schema: 3.22.5(zod@3.22.4)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /@langchain/community@0.0.47(@aws-sdk/client-dynamodb@3.552.0)(@aws-sdk/client-lambda@3.552.0)(@aws-sdk/credential-provider-node@3.552.0):
     resolution: {integrity: sha512-j20KhnWs16K/qxaY3QccOFMfcEmiTXN00NB1IPeO1pexRsvHL7GfqZ8rR5cOSSBfft2iuoGxaj1EZIyxh5ftgA==}
     engines: {node: '>=18'}
@@ -3637,6 +3657,10 @@ packages:
     resolution: {integrity: sha512-nbE1WxOTTrUWIfsfZ4aHGYu5DOuNkbxGokjV6Z2kxfJK3uaAb8zNK1muzOeipoLHZjInT4Br88BHpzevc681xA==}
     dev: false
 
+  /boolbase@1.0.0:
+    resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: false
+
   /bowser@2.11.0:
     resolution: {integrity: sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==}
     dev: false
@@ -3882,6 +3906,21 @@ packages:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
     dev: false
 
+  /css-select@5.1.0:
+    resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==}
+    dependencies:
+      boolbase: 1.0.0
+      css-what: 6.1.0
+      domhandler: 5.0.3
+      domutils: 3.1.0
+      nth-check: 2.1.1
+    dev: false
+
+  /css-what@6.1.0:
+    resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
+    engines: {node: '>= 6'}
+    dev: false
+
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -3961,6 +4000,33 @@ packages:
       md5: 2.3.0
     dev: false
 
+  /dom-serializer@2.0.0:
+    resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      entities: 4.5.0
+    dev: false
+
+  /domelementtype@2.3.0:
+    resolution: {integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==}
+    dev: false
+
+  /domhandler@5.0.3:
+    resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: 2.3.0
+    dev: false
+
+  /domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+    dependencies:
+      dom-serializer: 2.0.0
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+    dev: false
+
   /dotenv@16.3.1:
     resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
     engines: {node: '>=12'}
@@ -3991,6 +4057,11 @@ packages:
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: true
+
+  /entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
+    engines: {node: '>=0.12'}
+    dev: false
 
   /error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
@@ -4162,6 +4233,13 @@ packages:
 
   /fast-xml-parser@4.2.5:
     resolution: {integrity: sha512-B9/wizE4WngqQftFPmdaMYlXoJlJOYxGQOanC77fq9k8+Z0v5dDSVh+3glErdIROP//s/jgb7ZuxKfB8nVyo0g==}
+    hasBin: true
+    dependencies:
+      strnum: 1.0.5
+    dev: false
+
+  /fast-xml-parser@4.3.6:
+    resolution: {integrity: sha512-M2SovcRxD4+vC493Uc2GZVcZaj66CCJhWurC4viynVSTvrpErCShNcDz1lAho6n9REQKvL/ll4A4/fw6Y9z8nw==}
     hasBin: true
     dependencies:
       strnum: 1.0.5
@@ -4350,6 +4428,11 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
+
+  /he@1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+    dev: false
 
   /html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
@@ -5521,6 +5604,13 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
+  /node-html-parser@6.1.13:
+    resolution: {integrity: sha512-qIsTMOY4C/dAa5Q5vsobRpOOvPfC4pB61UVW2uSwZNUp0QU/jCekTal1vMmbO0DgdHeLUJpv/ARmDqErVxA3Sg==}
+    dependencies:
+      css-select: 5.1.0
+      he: 1.2.0
+    dev: false
+
   /node-int64@0.4.0:
     resolution: {integrity: sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==}
     dev: true
@@ -5547,6 +5637,12 @@ packages:
     dependencies:
       path-key: 4.0.0
     dev: true
+
+  /nth-check@2.1.1:
+    resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
+    dependencies:
+      boolbase: 1.0.0
+    dev: false
 
   /num-sort@2.1.0:
     resolution: {integrity: sha512-1MQz1Ed8z2yckoBeSfkQHHO9K1yDRxxtotKSJ9yvcTUUxSvfvzEq5GwBrjjHEpMlq/k5gvXdmJ1SbYxWtpNoVg==}

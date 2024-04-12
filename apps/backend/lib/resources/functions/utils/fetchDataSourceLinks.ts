@@ -1,6 +1,6 @@
 import { DOMParser } from "@xmldom/xmldom";
 
-interface DataSourceItem {
+export interface DataSourceItem {
   title: string;
   link: string;
   pubDate: string;

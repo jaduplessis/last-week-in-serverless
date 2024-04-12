@@ -31,13 +31,12 @@ export const handler = async (
     const { items } = data;
 
     const benchmarkItems = items.map(async (item) => {
-      const { id, title, link, summary } = item;
+      const { title, link, summary } = item;
 
       const embedding = await getEmbedding(title);
 
       return DataSourceEntity.update({
-        id,
-        SK: "BENCHMARK",
+        source: "BENCHMARK",
         title,
         link,
         summary,
