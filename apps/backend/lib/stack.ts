@@ -1,5 +1,5 @@
 import { buildResourceName, getStage } from "@last-week/helpers";
-import { Stack } from "aws-cdk-lib";
+import { CfnOutput, Stack } from "aws-cdk-lib";
 import { Construct } from "constructs";
 
 import { ApiGateway, DynamoDBConstruct } from "@last-week/cdk-constructs";
@@ -33,15 +33,17 @@ export class LastWeekStack extends Stack {
         table: dataSourcesTable.table,
       }
     );
+    
+    const deleteDataSources = new DeleteDataSources(this, "deleteDataSources", {
+      table: dataSourcesTable.table,
+    });
 
     new GenerateDataSources(this, "generateDataSources", {
       table: dataSourcesTable.table,
+      deleteDataSourcesFunction: deleteDataSources.function,
       commentaryFunction: generateCommentary.function,
     });
 
-    new DeleteDataSources(this, "deleteDataSources", {
-      table: dataSourcesTable.table,
-    });
 
     const slackIntegration = new SlackIntegration(this, "slackIntegration", {
       table: dataSourcesTable.table,
@@ -50,6 +52,10 @@ export class LastWeekStack extends Stack {
     new ApiGateway(this, "api-gateway", {
       stage,
       slackIntegration,
+    });
+
+    new CfnOutput(this, "stage", {
+      value: stage,
     });
   }
 }

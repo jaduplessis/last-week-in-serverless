@@ -14,6 +14,12 @@ import { invoke } from "./invoke";
 const lambda = new LambdaClient({ region: getRegion() });
 
 export const handler = async (): Promise<APIGatewayProxyResult> => {
+  await lambda.send(
+    new InvokeCommand({
+      FunctionName: getEnvVariable("DELETE_DATA_SOURCES_FUNCTION_NAME"),
+    })
+  );
+
   const dataSources = await fetchDataSourceLinks();
 
   const filteredDataSourcesTime = dateFilter(dataSources);

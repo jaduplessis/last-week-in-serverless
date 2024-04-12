@@ -1,4 +1,4 @@
-import { sharedLambdaEsbuildConfig } from "@last-week/helpers";
+import { getStage, sharedLambdaEsbuildConfig } from "@last-week/helpers";
 import { Duration } from "aws-cdk-lib";
 import { Role } from "aws-cdk-lib/aws-iam";
 import { Runtime } from "aws-cdk-lib/aws-lambda";
@@ -31,7 +31,10 @@ export class LastWeekCustomResource extends NodejsFunction {
       awsSdkConnectionReuse: true,
       entry: lambdaEntry,
       memorySize: memorySize ?? 1024,
-      environment,
+      environment: {
+        ...environment,
+        STAGE: getStage(),
+      },
       role,
       timeout: timeout ?? Duration.seconds(30),
     });
