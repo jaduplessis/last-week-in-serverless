@@ -36,9 +36,10 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
 
     DataSourceEntity.update(
       {
-        source: "AWS_RSS_FEED",
+        source: "NEW",
         title,
         link,
+        content,
         summary,
         embedding,
       },
@@ -48,11 +49,11 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
     );
   });
 
-  const embeddingData = await Promise.all(dataSourceItems);
+  await Promise.all(dataSourceItems);
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ embeddingData }),
+    body: "Data sources updated",
   };
 };
 

@@ -9,6 +9,7 @@ export const DataSourceEntity = new Entity({
     source: ["PK", 0, { type: "string", required: true }],
     title: ["SK", 0, { type: "string", required: true }],
     link: { type: "string", required: true },
+    content: { type: "string" },
     summary: { type: "string", required: true },
     embedding: { type: "list", required: true },
   },
