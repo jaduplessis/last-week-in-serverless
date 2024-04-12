@@ -35,7 +35,7 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
   const responseItems: ResponseItems[] = [];
 
   const relevantDataSourceItems = relevantDataSources.map(async (item) => {
-    const { content, title, link } = item;
+    const { content, title, link, ranking } = item;
 
     if (!content) {
       console.log("No content found for", title);
@@ -51,6 +51,7 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
       title,
       link,
       commentary,
+      ranking,
     });
   });
 

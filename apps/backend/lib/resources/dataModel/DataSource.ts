@@ -12,6 +12,7 @@ export const DataSourceEntity = new Entity({
     content: { type: "string" },
     summary: { type: "string", required: true },
     commentary: { type: "string" },
+    ranking: { type: "number" },
     maxDotProduct: { type: "number" },
     top3DotProduct: { type: "number" },
     embedding: { type: "list", required: true },
@@ -20,3 +21,4 @@ export const DataSourceEntity = new Entity({
 } as const);
 
 export type IDataSource = EntityItem<typeof DataSourceEntity>;
+export type ICommentary = Omit<IDataSource, "ranking"> & { ranking: number };

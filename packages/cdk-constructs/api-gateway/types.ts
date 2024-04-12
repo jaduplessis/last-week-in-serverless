@@ -4,9 +4,7 @@ interface RestApiFunctions {
   function: NodejsFunction;
 }
 
-export interface ArticleGPTApiGatewayProps {
+export interface ApiGatewayProps {
   stage: string;
-  willV2: RestApiFunctions;
-  stitch: RestApiFunctions;
-  uploadMarkdown: RestApiFunctions;
+  slackIntegration: RestApiFunctions;
 }

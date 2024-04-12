@@ -1,19 +1,13 @@
 import { buildResourceName } from "@last-week/helpers";
-import { CfnOutput } from "aws-cdk-lib";
-import {
-  ApiKey,
-  ApiKeySourceType,
-  RestApi,
-  UsagePlan,
-} from "aws-cdk-lib/aws-apigateway";
+import { ApiKeySourceType, RestApi } from "aws-cdk-lib/aws-apigateway";
 import { Construct } from "constructs";
 import { createIntegrations } from "./integrations";
-import { ArticleGPTApiGatewayProps } from "./types";
+import { ApiGatewayProps } from "./types";
 
-export class ArticleGPTApiGateway extends Construct {
+export class ApiGateway extends Construct {
   public restApi: RestApi;
 
-  constructor(scope: Construct, id: string, props: ArticleGPTApiGatewayProps) {
+  constructor(scope: Construct, id: string, props: ApiGatewayProps) {
     super(scope, id);
 
     const { stage } = props;
@@ -30,24 +24,6 @@ export class ArticleGPTApiGateway extends Construct {
       apiKeySourceType: ApiKeySourceType.HEADER,
     });
 
-    const apiKey = new ApiKey(this, buildResourceName("api-key"));
-
-    const usagePlan = new UsagePlan(this, "usage-plan", {
-      apiStages: [
-        {
-          api: this.restApi,
-          stage: this.restApi.deploymentStage,
-        },
-      ],
-    });
-
-    usagePlan.addApiKey(apiKey);
-
     createIntegrations({ ...props, api: this.restApi });
-
-    new CfnOutput(this, "apiKey", {
-      description: "API Key",
-      value: apiKey.keyId,
-    });
   }
 }
