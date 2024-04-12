@@ -2,18 +2,26 @@ import { APIGatewayProxyResult } from "aws-lambda";
 import { DataSourceEntity } from "../../dataModel";
 
 export const handler = async (): Promise<APIGatewayProxyResult> => {
-  const dataSources = await DataSourceEntity.query("DATA_SOURCE#NEW");
+  const newDataSources = await DataSourceEntity.query("DATA_SOURCE#NEW");
+  const commentaryDataSources = await DataSourceEntity.query(
+    "DATA_SOURCE#COMMENTARY"
+  );
 
-  if (!dataSources.Items) {
+  if (!newDataSources.Items || !commentaryDataSources.Items) {
     return {
       statusCode: 200,
       body: "No data sources found.",
     };
   }
 
-  // Delete all data sources with SK "NEW_DATA_SOURCE"
   await Promise.all(
-    dataSources.Items.map(async (dataSource) => {
+    newDataSources.Items.map(async (dataSource) => {
+      await DataSourceEntity.delete(dataSource);
+    })
+  );
+
+  await Promise.all(
+    commentaryDataSources.Items.map(async (dataSource) => {
       await DataSourceEntity.delete(dataSource);
     })
   );

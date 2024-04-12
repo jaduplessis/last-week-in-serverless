@@ -16,15 +16,15 @@ from functions.whats_new_fetcher.index import fetch_rss_whats_new_feed
 
 if __name__ == '__main__':
   # * Format email
-  # rtf_decoder(SETTINGS.rtf_dir, SETTINGS.txt_dir)
+  rtf_decoder(SETTINGS.rtf_dir, SETTINGS.txt_dir)
 
   # * Fetch the links from the emails. Benchmark data
-  # generate_benchmark_data()
+  generate_benchmark_data()
 
   # * Fetch the latest AWS news. New data
-  fetch_rss_whats_new_feed()
-  filter_rss_data()
-  generate_summaries(SETTINGS.whats_new_file)
+  # fetch_rss_whats_new_feed()
+  # filter_rss_data()
+  # generate_summaries(SETTINGS.whats_new_file)
 
 
   generate_context_file()
