@@ -9,10 +9,14 @@ export const DataSourceEntity = new Entity({
     source: ["PK", 0, { type: "string", required: true }],
     title: ["SK", 0, { type: "string", required: true }],
     link: { type: "string", required: true },
+    content: { type: "string" },
     summary: { type: "string", required: true },
+    commentary: { type: "string" },
+    maxDotProduct: { type: "number" },
+    top3DotProduct: { type: "number" },
     embedding: { type: "list", required: true },
   },
   table: DataSourcesTable,
 } as const);
 
-export type IInvocation = EntityItem<typeof DataSourceEntity>;
+export type IDataSource = EntityItem<typeof DataSourceEntity>;

@@ -2,8 +2,7 @@ import { APIGatewayProxyResult } from "aws-lambda";
 import { DataSourceEntity } from "../../dataModel";
 
 export const handler = async (): Promise<APIGatewayProxyResult> => {
-  // Get all data sources with PK "DATA_SOURCE#AWS_RSS_FEED"
-  const dataSources = await DataSourceEntity.query("DATA_SOURCE#AWS_RSS_FEED");
+  const dataSources = await DataSourceEntity.query("DATA_SOURCE#NEW");
 
   if (!dataSources.Items) {
     return {

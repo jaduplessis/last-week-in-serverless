@@ -1,3 +1,5 @@
+import { InvokeCommand, LambdaClient } from "@aws-sdk/client-lambda";
+import { getEnvVariable, getRegion } from "@last-week/helpers";
 import { APIGatewayProxyResult } from "aws-lambda";
 import parse from "node-html-parser";
 import { DataSourceEntity } from "../../dataModel";
@@ -8,6 +10,8 @@ import {
   heuristicsFilter,
 } from "../utils";
 import { invoke } from "./invoke";
+
+const lambda = new LambdaClient({ region: getRegion() });
 
 export const handler = async (): Promise<APIGatewayProxyResult> => {
   const dataSources = await fetchDataSourceLinks();
@@ -36,9 +40,10 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
 
     DataSourceEntity.update(
       {
-        source: "AWS_RSS_FEED",
+        source: "NEW",
         title,
         link,
+        content,
         summary,
         embedding,
       },
@@ -48,11 +53,18 @@ export const handler = async (): Promise<APIGatewayProxyResult> => {
     );
   });
 
-  const embeddingData = await Promise.all(dataSourceItems);
+  await Promise.all(dataSourceItems);
+
+  // Invoke the lambda function
+  await lambda.send(
+    new InvokeCommand({
+      FunctionName: getEnvVariable("GENERATE_COMMENTARY_FUNCTION_NAME"),
+    })
+  );
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ embeddingData }),
+    body: "Data sources generated successfully!",
   };
 };
 
