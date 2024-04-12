@@ -13,6 +13,7 @@ import { Provider } from "aws-cdk-lib/custom-resources";
 
 interface GenerateDataSourcesProps {
   table: Table;
+  commentaryFunction: NodejsFunction;
 }
 
 export class GenerateDataSources extends Construct {
@@ -22,7 +23,7 @@ export class GenerateDataSources extends Construct {
   constructor(
     scope: Construct,
     id: string,
-    { table }: GenerateDataSourcesProps
+    { table, commentaryFunction }: GenerateDataSourcesProps
   ) {
     super(scope, id);
 
@@ -35,10 +36,12 @@ export class GenerateDataSources extends Construct {
         environment: {
           OPENAI_API_KEY: getEnvVariable("OPENAI_API_KEY"),
           ANTHROPIC_API_KEY: getEnvVariable("ANTHROPIC_API_KEY"),
+          GENERATE_COMMENTARY_FUNCTION_NAME: commentaryFunction.functionName,
         },
       }
     );
 
     table.grantReadWriteData(this.function);
+    commentaryFunction.grantInvoke(this.function);
   }
 }

@@ -6,8 +6,8 @@ import { DynamoDBConstruct } from "@last-week/cdk-constructs";
 
 import {
   DeleteDataSources,
+  GenerateCommentary,
   GenerateDataSources,
-  GenerateEmail,
   PreloadBenchmark,
 } from "./resources/functions";
 
@@ -23,13 +23,15 @@ export class LastWeekStack extends Stack {
       table: dataSourcesTable.table,
     });
 
-    new GenerateDataSources(this, "generateDataSources", {
+    const generateCommentary = new GenerateCommentary(this, "generateCommentary", {
       table: dataSourcesTable.table,
     });
 
-    new GenerateEmail(this, "generateEmail", {
+    new GenerateDataSources(this, "generateDataSources", {
       table: dataSourcesTable.table,
+      commentaryFunction: generateCommentary.function,
     });
+
 
     new DeleteDataSources(this, "deleteDataSources", {
       table: dataSourcesTable.table,

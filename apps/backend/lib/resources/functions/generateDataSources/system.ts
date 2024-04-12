@@ -3,10 +3,10 @@
 export const systemPrompt = `
 You are a content parser. Your role is to summarize the content of the article provided.
 
-Your task is to summarize the content of the article in no more than 30 words.
+Your task is to summarize the content of the article in no more than 45 words.
 
 Constraints: Format the response as a JSON object with the key "summary" and the summary as a string value.
-ONLY OUTPUT THIS JSON OBJECT. The summary can be no longer than 30 words.
+ONLY OUTPUT THIS JSON OBJECT. The summary can be no longer than 45 words.
 
 Example
 --------

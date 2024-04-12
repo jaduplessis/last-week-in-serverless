@@ -11,24 +11,24 @@ import { LastWeekCustomResource } from "@last-week/cdk-constructs";
 import { Duration } from "aws-cdk-lib";
 import { Provider } from "aws-cdk-lib/custom-resources";
 
-interface GenerateEmailProps {
+interface GenerateCommentaryProps {
   table: Table;
 }
 
-export class GenerateEmail extends Construct {
+export class GenerateCommentary extends Construct {
   public function: NodejsFunction;
   public customResourceProvider: Provider;
 
   constructor(
     scope: Construct,
     id: string,
-    { table }: GenerateEmailProps
+    { table }: GenerateCommentaryProps
   ) {
     super(scope, id);
 
     this.function = new LastWeekCustomResource(
       this,
-      buildResourceName("generateEmail"),
+      buildResourceName("generateCommentary"),
       {
         lambdaEntry: getCdkHandlerPath(__dirname),
         timeout: Duration.minutes(5),
