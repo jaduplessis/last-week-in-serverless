@@ -18,12 +18,12 @@
     "vitest": "1.1.0"
   },
   "dependencies": {
-    "@last-week/helpers": "workspace:^",
     "@aws-cdk/aws-apigatewayv2-alpha": "2.114.1-alpha.0",
     "@aws-cdk/aws-apigatewayv2-integrations-alpha": "2.114.1-alpha.0",
     "@aws-sdk/client-apigatewaymanagementapi": "^3.540.0",
     "@aws-sdk/client-dynamodb": "^3.540.0",
     "@aws-sdk/lib-dynamodb": "^3.540.0",
+    "@last-week/helpers": "workspace:^",
     "dynamodb-toolbox": "^0.9.2",
     "ulid": "^2.3.0"
   }
